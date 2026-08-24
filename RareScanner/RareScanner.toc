@@ -1,11 +1,14 @@
 ## Interface: 30300
 ## Title: RareScanner 3.3.5a
-## Notes: Rare NPC cache scanner backport for WoW 3.3.5a.
-## Notes-frFR: Backport de RareScanner pour WoW 3.3.5a utilisant le cache des créatures.
+## Notes: Rare NPC scanner backport for WoW 3.3.5a.
 ## Author: maqjav, Maciza-Tyrande; 3.3.5a compatibility backport
-## Version: 3.3.5a-backport-2
+## Version: 3.3.5a-backport-map
 ## SavedVariables: RareScannerDB
 ## X-Category: Map, Miscellaneous
 
 NPCData335.lua
+libs\Astrolabe\DongleStub.lua
+libs\Astrolabe\AstrolabeMapMonitor.lua
+libs\Astrolabe\Astrolabe.lua
 RareScanner335.lua
+RareScannerMap335.lua

@@ -9,7 +9,7 @@ local ALERT_SOUND = "Interface\\AddOns\\RareScanner\\Media\\alarmclockwarning2-1
 
 RareScannerDB = RareScannerDB or {}
 local db
-local scanIDs, scanOrder, baselineCached, alerted = {}, {}, {}, {}
+local scanIDs, scanOrder, baselineCached = {}, {}, {}
 local scanIndex, elapsedSinceScan = 1, 0
 local baselineDone = false
 
@@ -95,8 +95,8 @@ end)
 
 local function Alert(npcID, detectedName, reason, portraitUnit)
   if not db or db.enabled == false then return end
-  if not npcID or alerted[npcID] then return end
-  alerted[npcID] = true
+  if not npcID or db.seen[npcID] then return end
+  db.seen[npcID] = true
   local info = scanIDs[npcID]
   local name = detectedName or (info and info.name) or ("NPC "..npcID)
   currentAlertNpcID = npcID
@@ -161,21 +161,18 @@ end
 
 local function ResetAlertHistory(id)
   if id then
-    -- Rearm this NPC for both direct unit detection and the WDB cache scanner.
-    alerted[id] = nil
-    baselineCached[id] = nil
+    -- Rearm only this NPC in RareScanner's own alert history.
+    -- The WDB baseline is deliberately left untouched.
+    db.seen[id] = nil
   else
-    -- Global reset: forget every NPC ID already seen by RareScanner.
-    -- Keep baselineDone enabled so the next cache scan treats cached rares as new
-    -- instead of silently rebuilding a baseline.
-    alerted = {}
-    baselineCached = {}
-    baselineDone = true
-    scanIndex = 1
+    -- Global reset only clears RareScanner's own persistent alert history.
+    -- Never clear the WDB baseline here: doing so would make every creature
+    -- already cached by the client look newly discovered and cause false alerts.
+    db.seen = {}
   end
 
-  -- A target or mouseover that has not changed does not fire a new WoW event.
-  -- Rescan both immediately so /rs reset and the options button take effect now.
+  -- If the rare is actually in front of the player, allow it to alert again
+  -- immediately through a real unit token.
   CheckUnit("target")
   CheckUnit("mouseover")
 end
@@ -202,10 +199,16 @@ local function BuildOptionsPanel()
   _G["RareScanner335OptSoundText"]:SetText("Activer l'alerte sonore")
   soundCB.tooltipText = "Joue un son lorsqu'un PNJ rare est détecté."
 
+  local mapCB = CreateFrame("CheckButton", "RareScanner335OptShowOnMap", panel, "InterfaceOptionsCheckButtonTemplate")
+  mapCB:SetPoint("TOPLEFT", soundCB, "BOTTOMLEFT", 0, -6)
+  _G["RareScanner335OptShowOnMapText"]:SetText("Afficher les rares sur la carte du monde")
+  mapCB.tooltipText = "Affiche ou masque les points d'apparition des rares sur la carte du monde."
+
   local function RefreshPanel()
     if not db then return end
     enableCB:SetChecked(db.enabled ~= false)
     soundCB:SetChecked(db.sound ~= false)
+    mapCB:SetChecked(db.showOnMap ~= false)
     if db.enabled ~= false then
       soundCB:Enable()
     else
@@ -230,10 +233,17 @@ local function BuildOptionsPanel()
     db.sound = self:GetChecked() and true or false
   end)
 
+  mapCB:SetScript("OnClick", function(self)
+    db.showOnMap = self:GetChecked() and true or false
+    if type(RareScanner335_UpdateMapPins) == "function" then
+      RareScanner335_UpdateMapPins()
+    end
+  end)
+
   local resetButton = CreateFrame("Button", "RareScanner335OptReset", panel, "UIPanelButtonTemplate")
   resetButton:SetWidth(110)
   resetButton:SetHeight(22)
-  resetButton:SetPoint("TOPLEFT", soundCB, "BOTTOMLEFT", 2, -18)
+  resetButton:SetPoint("TOPLEFT", mapCB, "BOTTOMLEFT", 2, -18)
   resetButton:SetText("Réinitialiser")
   resetButton:SetScript("OnClick", function()
     ResetAlertHistory()
@@ -247,6 +257,7 @@ local function BuildOptionsPanel()
   panel.default = function()
     db.enabled = true
     db.sound = true
+    db.showOnMap = true
     RefreshPanel()
   end
 
@@ -266,8 +277,10 @@ frame:SetScript("OnEvent", function(self,event)
     db = RareScannerDB
     db.disabled = db.disabled or {}
     db.custom = db.custom or {}
+    db.seen = db.seen or {}
     if db.enabled == nil then db.enabled = true end
     if db.sound == nil then db.sound = true end
+    if db.showOnMap == nil then db.showOnMap = true end
     db.alertDuration = tonumber(db.alertDuration) or 12
     RebuildScanList()
     BuildOptionsPanel()
@@ -318,7 +331,7 @@ SlashCmdList["RARESCANNER335"] = function(msg)
   if cmd == "" or cmd == "help" then
     chat("Commandes: /rs test | add <ID> <nom> | remove <ID> | enable <ID> | disable <ID> | sound on/off | reset [ID] | status")
   elseif cmd == "test" then
-    alerted[-1]=nil; Alert(-1, "Test RareScanner", "test")
+    db.seen[-1]=nil; Alert(-1, "Test RareScanner", "test")
   elseif cmd == "add" then
     local id, name = rest:match("^(%d+)%s+(.+)$")
     id=tonumber(id)
@@ -342,7 +355,8 @@ SlashCmdList["RARESCANNER335"] = function(msg)
     end
   elseif cmd == "status" then
     local c=0; for _ in pairs(baselineCached) do c=c+1 end
-    chat("RareScanner: "..(db.enabled ~= false and "on" or "off").."; PNJ suivis: "..#scanOrder.."; déjà en cache: "..c.."; son: "..(db.sound and "on" or "off"))
+    local s=0; for _ in pairs(db.seen or {}) do s=s+1 end
+    chat("RareScanner: "..(db.enabled ~= false and "on" or "off").."; PNJ suivis: "..#scanOrder.."; cache WDB: "..c.."; historique: "..s.."; son: "..(db.sound and "on" or "off"))
   else
     chat("Commande inconnue. /rs help")
   end
