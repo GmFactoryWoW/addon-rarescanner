@@ -5,6 +5,7 @@
 ## Version: 3.3.5a-backport-map
 ## SavedVariables: RareScannerDB
 ## X-Category: Map, Miscellaneous
+Bootstrap335.lua
 Locale335.lua
 
 NPCData335.lua

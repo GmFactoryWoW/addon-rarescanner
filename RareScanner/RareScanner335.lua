@@ -5,7 +5,7 @@
 local ADDON = "RareScanner"
 local UPDATE_INTERVAL = 0.12
 local SCANS_PER_TICK = 12
-local ALERT_SOUND = "Interface\\AddOns\\RareScanner\\Media\\alarmclockwarning2-1.ogg"
+local ALERT_SOUND = RareScanner335_Asset("Media\\alarmclockwarning2-1.ogg")
 
 RareScannerDB = RareScannerDB or {}
 local db
@@ -107,7 +107,7 @@ local function ShowNpcVisual(npcID, unit)
 
   creatureModel:Hide()
   icon:Show()
-  icon:SetTexture("Interface\\AddOns\\RareScanner\\Media\\OriginalSkull.blp")
+  icon:SetTexture(RareScanner335_Asset("Media\\OriginalSkull.blp"))
 end
 
 local title = button:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")

@@ -1,0 +1,25 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\UI.xsd">
+
+    <!-- Bootstrap -->
+    <Script file="Bootstrap335.lua"/>
+
+    <!-- Libraries -->
+    <Script file="libs\Astrolabe\DongleStub.lua"/>
+    <Script file="libs\Astrolabe\AstrolabeMapMonitor.lua"/>
+    <Script file="libs\Astrolabe\Astrolabe.lua"/>
+
+    <!-- Localization -->
+    <Script file="Locale335.lua"/>
+
+    <!-- Data -->
+    <Script file="NPCData335.lua"/>
+
+    <!-- Core -->
+    <Script file="RareScanner335.lua"/>
+
+    <!-- World Map -->
+    <Script file="RareScannerMap335.lua"/>
+
+</Ui>

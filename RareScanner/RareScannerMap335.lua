@@ -1,7 +1,7 @@
 -- RareScanner 3.3.5a world-map spawn pins
 
-local ICON_TEXTURE = "Interface\\AddOns\\RareScanner\\Media\\OriginalSkull.blp"
-local KILLED_ICON_TEXTURE = "Interface\\AddOns\\RareScanner\\Media\\BlueSkullLight.blp"
+local ICON_TEXTURE = RareScanner335_Asset("Media\\OriginalSkull.blp")
+local KILLED_ICON_TEXTURE = RareScanner335_Asset("Media\\BlueSkullLight.blp")
 
 -- AzerothCore map IDs -> WoW 3.3.5 continent indexes.
 local MAP_TO_CONTINENT = {
