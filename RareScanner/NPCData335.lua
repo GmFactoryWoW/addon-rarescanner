@@ -13,7 +13,6 @@ RareScanner335_NPCs = {
       zhCN = "索罗斯·莱特芬格",
       zhTW = "索羅斯·萊特芬格",
     },
-    displayID = 3341,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -39,7 +38,6 @@ RareScanner335_NPCs = {
       zhCN = "监工纳尔格",
       zhTW = "監工納爾格",
     },
-    displayID = 774,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -58,7 +56,6 @@ RareScanner335_NPCs = {
       zhCN = "狡猾的莫加尼",
       zhTW = "狡猾的莫加尼",
     },
-    displayID = 3320,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -77,7 +74,6 @@ RareScanner335_NPCs = {
       zhCN = "格拉夫·疾齿",
       zhTW = "格拉夫·疾齒",
     },
-    displayID = 175,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -96,7 +92,6 @@ RareScanner335_NPCs = {
       zhCN = "乌尔图斯",
       zhTW = "烏爾圖斯",
     },
-    displayID = 507,
     minlevel = 26,
     maxlevel = 26,
     spawns = {
@@ -130,7 +125,6 @@ RareScanner335_NPCs = {
       zhCN = "母蜘蛛",
       zhTW = "母蜘蛛",
     },
-    displayID = 2541,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -146,7 +140,6 @@ RareScanner335_NPCs = {
       zhCN = "费德菲尼尔",
       zhTW = "費德菲尼爾",
     },
-    displayID = 175,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -165,7 +158,6 @@ RareScanner335_NPCs = {
       zhCN = "玛拉索姆公爵",
       zhTW = "瑪拉索姆領主",
     },
-    displayID = 10626,
     minlevel = 31,
     maxlevel = 31,
     spawns = {
@@ -190,7 +182,6 @@ RareScanner335_NPCs = {
       zhCN = "利爪队长",
       zhTW = "利爪隊長",
     },
-    displayID = 383,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -205,7 +196,6 @@ RareScanner335_NPCs = {
       zhCN = "芬罗斯",
       zhTW = "芬羅斯",
     },
-    displayID = 11179,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -229,7 +219,6 @@ RareScanner335_NPCs = {
       zhCN = "斯拉克",
       zhTW = "斯拉克",
     },
-    displayID = 540,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -244,7 +233,6 @@ RareScanner335_NPCs = {
       zhCN = "布拉克",
       zhTW = "布拉克",
     },
-    displayID = 652,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -259,7 +247,6 @@ RareScanner335_NPCs = {
       zhCN = "鲁伯斯",
       zhTW = "魯伯斯",
     },
-    displayID = 11412,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -293,7 +280,6 @@ RareScanner335_NPCs = {
       zhCN = "奈法鲁",
       zhTW = "奈法魯",
     },
-    displayID = 11181,
     minlevel = 34,
     maxlevel = 34,
     spawns = {
@@ -310,7 +296,6 @@ RareScanner335_NPCs = {
       zhCN = "莱布里萨斯",
       zhTW = "萊普利瑟斯",
     },
-    displayID = 1065,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -330,7 +315,6 @@ RareScanner335_NPCs = {
       zhCN = "死神4000型",
       zhTW = "死神4000型",
     },
-    displayID = 548,
     minlevel = 20,
     maxlevel = 20,
     spawns = {
@@ -385,7 +369,6 @@ RareScanner335_NPCs = {
       zhCN = "纳拉克西斯",
       zhTW = "納拉克西斯",
     },
-    displayID = 963,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -400,7 +383,6 @@ RareScanner335_NPCs = {
       zhCN = "卡松",
       zhTW = "卡松",
     },
-    displayID = 6041,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -422,7 +404,6 @@ RareScanner335_NPCs = {
       zhCN = "被洗脑的贵族",
       zhTW = "被洗腦的貴族",
     },
-    displayID = 3267,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -437,7 +418,6 @@ RareScanner335_NPCs = {
       zhCN = "玛里莎·杜派格",
       zhTW = "瑪里莎·杜派格",
     },
-    displayID = 2355,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -455,7 +435,6 @@ RareScanner335_NPCs = {
       zhCN = "查特",
       zhTW = "查特",
     },
-    displayID = 821,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -487,7 +466,6 @@ RareScanner335_NPCs = {
       zhCN = "失落者酋长",
       zhTW = "失落者酋長",
     },
-    displayID = 10921,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -510,7 +488,6 @@ RareScanner335_NPCs = {
       zhCN = "指挥官菲斯托姆",
       zhTW = "指揮官菲斯托姆",
     },
-    displayID = 7848,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -538,7 +515,6 @@ RareScanner335_NPCs = {
       zhCN = "沉默的罗恩",
       zhTW = "沉默的羅恩",
     },
-    displayID = 10792,
     minlevel = 26,
     maxlevel = 26,
     spawns = {
@@ -569,7 +545,6 @@ RareScanner335_NPCs = {
       zhCN = "龙喉军官",
       zhTW = "龍喉軍官",
     },
-    displayID = 4912,
     minlevel = 24,
     maxlevel = 25,
     spawns = {
@@ -588,7 +563,6 @@ RareScanner335_NPCs = {
       zhCN = "玉龙",
       zhTW = "玉龍",
     },
-    displayID = 7975,
     minlevel = 47,
     maxlevel = 47,
     spawns = {
@@ -608,7 +582,6 @@ RareScanner335_NPCs = {
       zhCN = "失落者厨师",
       zhTW = "失落者廚師",
     },
-    displayID = 152,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -632,7 +605,6 @@ RareScanner335_NPCs = {
       zhCN = "吸血寡妇",
       zhTW = "吸血寡婦",
     },
-    displayID = 955,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -651,7 +623,6 @@ RareScanner335_NPCs = {
       zhCN = "雪盲石腭怪",
       zhTW = "錘脊者",
     },
-    displayID = 830,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -666,7 +637,6 @@ RareScanner335_NPCs = {
       zhCN = "游荡的冰爪熊",
       zhTW = "遊蕩的冰爪熊",
     },
-    displayID = 913,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -688,7 +658,6 @@ RareScanner335_NPCs = {
       zhCN = "狂暴的冬狼",
       zhTW = "狂暴的冬狼",
     },
-    displayID = 11422,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -709,7 +678,6 @@ RareScanner335_NPCs = {
       zhCN = "饥饿的雪怪",
       zhTW = "饑餓的雪怪",
     },
-    displayID = 931,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -729,7 +697,6 @@ RareScanner335_NPCs = {
       zhCN = "刺喉雌龙",
       zhTW = "刺喉龍族母",
     },
-    displayID = 11316,
     minlevel = 31,
     maxlevel = 31,
     spawns = {
@@ -748,7 +715,6 @@ RareScanner335_NPCs = {
       zhCN = "霜鬃长老",
       zhTW = "霜鬃長老阿克提卡斯",
     },
-    displayID = 27504,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -772,7 +738,6 @@ RareScanner335_NPCs = {
       zhCN = "大头目加尔高什",
       zhTW = "大頭目加爾高西",
     },
-    displayID = 1194,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -791,7 +756,6 @@ RareScanner335_NPCs = {
       zhCN = "玛高什",
       zhTW = "瑪高什",
     },
-    displayID = 160,
     minlevel = 21,
     maxlevel = 21,
     spawns = {
@@ -810,7 +774,6 @@ RareScanner335_NPCs = {
       zhCN = "掘地工头目",
       zhTW = "掘地工頭目",
     },
-    displayID = 774,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -829,7 +792,6 @@ RareScanner335_NPCs = {
       zhCN = "格瑞兹拉克",
       zhTW = "格瑞茲拉克",
     },
-    displayID = 774,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -848,7 +810,6 @@ RareScanner335_NPCs = {
       zhCN = "失落的灵魂",
       zhTW = "失落的靈魂",
     },
-    displayID = 985,
     minlevel = 6,
     maxlevel = 7,
     spawns = {
@@ -870,7 +831,6 @@ RareScanner335_NPCs = {
       zhCN = "痛苦的灵魂",
       zhTW = "痛苦的靈魂",
     },
-    displayID = 9534,
     minlevel = 8,
     maxlevel = 9,
     spawns = {
@@ -889,7 +849,6 @@ RareScanner335_NPCs = {
       zhCN = "金鳞蜥蜴",
       zhTW = "金鱗蜥蜴",
     },
-    displayID = 12342,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -911,7 +870,6 @@ RareScanner335_NPCs = {
       zhCN = "血色法官",
       zhTW = "血色法官",
     },
-    displayID = 10355,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -930,7 +888,6 @@ RareScanner335_NPCs = {
       zhCN = "血色质问者",
       zhTW = "血色質問者",
     },
-    displayID = 10343,
     minlevel = 61,
     maxlevel = 61,
     spawns = {
@@ -949,7 +906,6 @@ RareScanner335_NPCs = {
       zhCN = "血色高阶牧师",
       zhTW = "血色高階牧師",
     },
-    displayID = 10342,
     minlevel = 63,
     maxlevel = 63,
     spawns = {
@@ -968,7 +924,6 @@ RareScanner335_NPCs = {
       zhCN = "血色刽子手",
       zhTW = "血色劊子手",
     },
-    displayID = 10344,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -987,7 +942,6 @@ RareScanner335_NPCs = {
       zhCN = "工头杰瑞斯",
       zhTW = "工頭傑瑞斯",
     },
-    displayID = 10340,
     minlevel = 62,
     maxlevel = 62,
     spawns = {
@@ -1006,7 +960,6 @@ RareScanner335_NPCs = {
       zhCN = "工头玛希瑞德",
       zhTW = "工頭瑪希瑞德",
     },
-    displayID = 10354,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -1025,7 +978,6 @@ RareScanner335_NPCs = {
       zhCN = "弗曼恩",
       zhTW = "弗曼恩",
     },
-    displayID = 519,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -1041,7 +993,6 @@ RareScanner335_NPCs = {
       zhCN = "玛达萨尔",
       zhTW = "瑪達薩爾領主",
     },
-    displayID = 10356,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -1061,7 +1012,6 @@ RareScanner335_NPCs = {
       zhCN = "恐怖耳语者",
       zhTW = "恐怖耳語者",
     },
-    displayID = 4629,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -1077,7 +1027,6 @@ RareScanner335_NPCs = {
       zhCN = "普特迪乌斯",
       zhTW = "普特迪烏斯",
     },
-    displayID = 10612,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -1096,7 +1045,6 @@ RareScanner335_NPCs = {
       zhCN = "哈斯克",
       zhTW = "哈斯克",
     },
-    displayID = 9013,
     minlevel = 62,
     maxlevel = 62,
     spawns = {
@@ -1115,8 +1063,6 @@ RareScanner335_NPCs = {
       zhCN = "血色铁匠",
       zhTW = "血色鐵匠",
     },
-    displayIDs = { 10346, 10347, 10348, 10349 },
-    displayID = 10346,
     minlevel = 58,
     maxlevel = 59,
     spawns = {
@@ -1131,7 +1077,6 @@ RareScanner335_NPCs = {
       zhCN = "穆亚德",
       zhTW = "穆亞德",
     },
-    displayID = 2597,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -1146,7 +1091,6 @@ RareScanner335_NPCs = {
       zhCN = "迪布",
       zhTW = "迪布",
     },
-    displayID = 1994,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -1165,8 +1109,6 @@ RareScanner335_NPCs = {
       zhCN = "达拉然书记员",
       zhTW = "達拉然書記員",
     },
-    displayIDs = { 3589, 3590 },
-    displayID = 3589,
     minlevel = 21,
     maxlevel = 21,
     spawns = {
@@ -1185,7 +1127,6 @@ RareScanner335_NPCs = {
       zhCN = "农夫索利丹",
       zhTW = "農夫索利丹",
     },
-    displayID = 3535,
     minlevel = 8,
     maxlevel = 8,
     spawns = {
@@ -1204,7 +1145,6 @@ RareScanner335_NPCs = {
       zhCN = "腐皮惩戒者",
       zhTW = "腐皮懲戒者",
     },
-    displayID = 10850,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -1223,7 +1163,6 @@ RareScanner335_NPCs = {
       zhCN = "斯纳麦恩",
       zhTW = "斯納麥恩",
     },
-    displayID = 965,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -1242,7 +1181,6 @@ RareScanner335_NPCs = {
       zhCN = "马鲁克·龙鳞",
       zhTW = "馬魯克·龍鱗",
     },
-    displayID = 4914,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -1261,7 +1199,6 @@ RareScanner335_NPCs = {
       zhCN = "加内格·焦颅",
       zhTW = "加內格·焦顱",
     },
-    displayID = 4913,
     minlevel = 29,
     maxlevel = 29,
     spawns = {
@@ -1280,7 +1217,6 @@ RareScanner335_NPCs = {
       zhCN = "雌性森林陆行鸟",
       zhTW = "雌性森林陸行鳥",
     },
-    displayID = 38,
     minlevel = 20,
     maxlevel = 20,
     spawns = {
@@ -1299,7 +1235,6 @@ RareScanner335_NPCs = {
       zhCN = "影爪",
       zhTW = "影爪",
     },
-    displayID = 3030,
     minlevel = 13,
     maxlevel = 13,
     spawns = {
@@ -1318,7 +1253,6 @@ RareScanner335_NPCs = {
       zhCN = "莫嘉泽尔",
       zhTW = "莫嘉澤爾女士",
     },
-    displayID = 5774,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -1337,7 +1271,6 @@ RareScanner335_NPCs = {
       zhCN = "卡尼沃斯",
       zhTW = "『擊破者』卡尼沃斯",
     },
-    displayID = 5773,
     minlevel = 16,
     maxlevel = 16,
     spawns = {
@@ -1352,7 +1285,6 @@ RareScanner335_NPCs = {
       zhCN = "利斯林",
       zhTW = "利斯林",
     },
-    displayID = 10819,
     minlevel = 14,
     maxlevel = 14,
     spawns = {
@@ -1371,7 +1303,6 @@ RareScanner335_NPCs = {
       zhCN = "召火者拉迪森",
       zhTW = "召火者拉迪森",
     },
-    displayID = 5772,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -1390,7 +1321,6 @@ RareScanner335_NPCs = {
       zhCN = "狂怒的石元素",
       zhTW = "狂怒的石元素",
     },
-    displayID = 1162,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -1409,7 +1339,6 @@ RareScanner335_NPCs = {
       zhCN = "鸦爪摄政者",
       zhTW = "鴉爪攝政者",
     },
-    displayID = 1019,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -1425,7 +1354,6 @@ RareScanner335_NPCs = {
       zhCN = "斯格霍尔",
       zhTW = "斯格霍爾",
     },
-    displayID = 1078,
     minlevel = 36,
     maxlevel = 36,
     spawns = {
@@ -1440,7 +1368,6 @@ RareScanner335_NPCs = {
       zhCN = "洛格罗什",
       zhTW = "洛格羅什",
     },
-    displayID = 11566,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -1459,7 +1386,6 @@ RareScanner335_NPCs = {
       zhCN = "大型洛克鳄",
       zhTW = "大型洛克鱷",
     },
-    displayID = 831,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -1476,7 +1402,6 @@ RareScanner335_NPCs = {
       zhCN = "萨克拉希斯",
       zhTW = "薩克拉希斯領主",
     },
-    displayID = 4910,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -1494,7 +1419,6 @@ RareScanner335_NPCs = {
       zhCN = "达贝尔·蒙特罗斯",
       zhTW = "達貝爾·蒙特羅斯",
     },
-    displayID = 4027,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -1511,7 +1435,6 @@ RareScanner335_NPCs = {
       zhCN = "歌唱者",
       zhTW = "歌唱者",
     },
-    displayID = 4026,
     minlevel = 34,
     maxlevel = 34,
     spawns = {
@@ -1530,7 +1453,6 @@ RareScanner335_NPCs = {
       zhCN = "弗尔伯利",
       zhTW = "弗爾伯利",
     },
-    displayID = 11551,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -1548,7 +1470,6 @@ RareScanner335_NPCs = {
       zhCN = "鲁尔·巨石",
       zhTW = "盧爾·巨石",
     },
-    displayID = 11572,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -1562,7 +1483,6 @@ RareScanner335_NPCs = {
       zhCN = "考沃克",
       zhTW = "考沃克",
     },
-    displayID = 610,
     minlevel = 36,
     maxlevel = 36,
     spawns = {
@@ -1581,7 +1501,6 @@ RareScanner335_NPCs = {
       zhCN = "碎骨者穆罗克",
       zhTW = "碎骨者穆羅克",
     },
-    displayID = 536,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -1600,7 +1519,6 @@ RareScanner335_NPCs = {
       zhCN = "扎拉斯·枯木",
       zhTW = "札拉斯·枯木",
     },
-    displayID = 28239,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -1622,7 +1540,6 @@ RareScanner335_NPCs = {
       zhCN = "屠戮者尼玛尔",
       zhTW = "『屠戮者』尼瑪爾",
     },
-    displayID = 28818,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -1644,7 +1561,6 @@ RareScanner335_NPCs = {
       zhCN = "地占师弗林塔格",
       zhTW = "地卜師弗林塔格",
     },
-    displayID = 10911,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -1663,7 +1579,6 @@ RareScanner335_NPCs = {
       zhCN = "暗炉指挥官",
       zhTW = "暗爐指揮官",
     },
-    displayID = 4937,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -1685,7 +1600,6 @@ RareScanner335_NPCs = {
       zhCN = "攻城傀儡",
       zhTW = "攻城魔像",
     },
-    displayID = 13869,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -1717,7 +1631,6 @@ RareScanner335_NPCs = {
       zhCN = "作战傀儡",
       zhTW = "作戰魔像",
     },
-    displayID = 5747,
     minlevel = 36,
     maxlevel = 36,
     spawns = {
@@ -1738,7 +1651,6 @@ RareScanner335_NPCs = {
       zhCN = "拉姆布勒",
       zhTW = "拉姆布勒",
     },
-    displayID = 8550,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -1756,7 +1668,6 @@ RareScanner335_NPCs = {
       zhCN = "巴纳布斯",
       zhTW = "巴納布斯",
     },
-    displayID = 9372,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -1773,7 +1684,6 @@ RareScanner335_NPCs = {
       zhCN = "安纳塞姆斯",
       zhTW = "安納塞姆斯",
     },
-    displayID = 10040,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -1791,7 +1701,6 @@ RareScanner335_NPCs = {
       zhCN = "纳兹加克王子",
       zhTW = "納茲加克王子",
     },
-    displayID = 6763,
     minlevel = 41,
     maxlevel = 41,
     spawns = {
@@ -1810,7 +1719,6 @@ RareScanner335_NPCs = {
       zhCN = "断牙",
       zhTW = "斷牙",
     },
-    displayID = 6082,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -1828,7 +1736,6 @@ RareScanner335_NPCs = {
       zhCN = "扎里科特",
       zhTW = "札里科特",
     },
-    displayID = 1210,
     minlevel = 55,
     maxlevel = 55,
     spawns = {
@@ -1845,7 +1752,6 @@ RareScanner335_NPCs = {
       zhCN = "马兹拉纳其",
       zhTW = "馬茲拉納其",
     },
-    displayID = 1961,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -1864,7 +1770,6 @@ RareScanner335_NPCs = {
       zhCN = "异种收割者",
       zhTW = "異種收割者",
     },
-    displayID = 11096,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -1883,7 +1788,6 @@ RareScanner335_NPCs = {
       zhCN = "秘法师拉佐斯诺特",
       zhTW = "秘法師拉佐斯諾特",
     },
-    displayID = 6095,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -1902,7 +1806,6 @@ RareScanner335_NPCs = {
       zhCN = "淤泥兽",
       zhTW = "淤泥獸",
     },
-    displayID = 360,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -1917,7 +1820,6 @@ RareScanner335_NPCs = {
       zhCN = "格沙拉罕",
       zhTW = "格沙拉罕",
     },
-    displayID = 1397,
     minlevel = 20,
     maxlevel = 20,
     spawns = {
@@ -1932,7 +1834,6 @@ RareScanner335_NPCs = {
       zhCN = "拉索利安",
       zhTW = "拉索利安",
     },
-    displayID = 5047,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -1951,7 +1852,6 @@ RareScanner335_NPCs = {
       zhCN = "恶臭的黑苔兽",
       zhTW = "惡臭的黑苔獸",
     },
-    displayID = 1549,
     minlevel = 13,
     maxlevel = 13,
     spawns = {
@@ -1970,7 +1870,6 @@ RareScanner335_NPCs = {
       zhCN = "下水道鳄鱼",
       zhTW = "下水道生物",
     },
-    displayID = 2850,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -1994,7 +1893,6 @@ RareScanner335_NPCs = {
       zhCN = "矿工约翰森",
       zhTW = "礦工約翰森",
     },
-    displayID = 556,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -2013,7 +1911,6 @@ RareScanner335_NPCs = {
       zhCN = "鞭笞者特里高雷",
       zhTW = "『鞭笞者』特里高雷",
     },
-    displayID = 1092,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -2031,7 +1928,6 @@ RareScanner335_NPCs = {
       zhCN = "博艾恩",
       zhTW = "博艾恩",
     },
-    displayID = 4212,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -2050,7 +1946,6 @@ RareScanner335_NPCs = {
       zhCN = "药剂师法尔瑟斯",
       zhTW = "藥劑師法爾瑟斯",
     },
-    displayID = 4156,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -2065,7 +1960,6 @@ RareScanner335_NPCs = {
       zhCN = "阿克瑞鲁斯",
       zhTW = "阿克瑞魯斯",
     },
-    displayID = 1912,
     minlevel = 26,
     maxlevel = 26,
     spawns = {
@@ -2085,7 +1979,6 @@ RareScanner335_NPCs = {
       zhCN = "恐狼族长",
       zhTW = "恐狼族長",
     },
-    displayID = 522,
     minlevel = 31,
     maxlevel = 32,
     spawns = {
@@ -2104,7 +1997,6 @@ RareScanner335_NPCs = {
       zhCN = "死亡之誓",
       zhTW = "死亡誓言者隊長",
     },
-    displayID = 3224,
     minlevel = 21,
     maxlevel = 21,
     spawns = {
@@ -2123,7 +2015,6 @@ RareScanner335_NPCs = {
       zhCN = "巨翼雄兽",
       zhTW = "巨翼族王",
     },
-    displayID = 4585,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -2143,7 +2034,6 @@ RareScanner335_NPCs = {
       zhCN = "狂怒的树人",
       zhTW = "狂怒的樹人",
     },
-    displayID = 9591,
     minlevel = 29,
     maxlevel = 30,
     spawns = {
@@ -2158,7 +2048,6 @@ RareScanner335_NPCs = {
       zhCN = "纳尔塔萨",
       zhTW = "納爾塔薩",
     },
-    displayID = 8471,
     minlevel = 30,
     maxlevel = 30,
     spawns = {
@@ -2177,7 +2066,6 @@ RareScanner335_NPCs = {
       zhCN = "异种破坏者",
       zhTW = "異種劫毀者",
     },
-    displayID = 11099,
     minlevel = 36,
     maxlevel = 36,
     spawns = {
@@ -2196,7 +2084,6 @@ RareScanner335_NPCs = {
       zhCN = "布雷姆戈",
       zhTW = "布雷姆戈",
     },
-    displayID = 6374,
     minlevel = 41,
     maxlevel = 41,
     spawns = {
@@ -2215,7 +2102,6 @@ RareScanner335_NPCs = {
       zhCN = "暗雾寡妇蛛",
       zhTW = "暗霧寡婦蛛",
     },
-    displayID = 2537,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -2234,7 +2120,6 @@ RareScanner335_NPCs = {
       zhCN = "盲眼猎手",
       zhTW = "盲眼獵手",
     },
-    displayID = 4735,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -2253,7 +2138,6 @@ RareScanner335_NPCs = {
       zhCN = "剃刀沼泽刺鬃守卫",
       zhTW = "剃刀沼澤刺鬃守衛",
     },
-    displayID = 6078,
     minlevel = 25,
     maxlevel = 26,
     spawns = {
@@ -2273,7 +2157,6 @@ RareScanner335_NPCs = {
       zhCN = "唤地者哈穆加",
       zhTW = "喚地者哈穆加",
     },
-    displayID = 6102,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -2289,7 +2172,6 @@ RareScanner335_NPCs = {
       zhCN = "莎尔莱",
       zhTW = "莎爾萊女士",
     },
-    displayID = 11262,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -2308,7 +2190,6 @@ RareScanner335_NPCs = {
       zhCN = "钻石头",
       zhTW = "鑽石頭",
     },
-    displayID = 1817,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -2327,7 +2208,6 @@ RareScanner335_NPCs = {
       zhCN = "潜行者布拉多尔",
       zhTW = "『潛行者』血吼",
     },
-    displayID = 7336,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -2346,7 +2226,6 @@ RareScanner335_NPCs = {
       zhCN = "滑翔者安蒂鲁斯",
       zhTW = "『翱翔者』安蒂魯斯",
     },
-    displayID = 10889,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -2361,7 +2240,6 @@ RareScanner335_NPCs = {
       zhCN = "阿拉瑟希斯",
       zhTW = "阿拉瑟希斯",
     },
-    displayID = 7569,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -2376,7 +2254,6 @@ RareScanner335_NPCs = {
       zhCN = "基洛特",
       zhTW = "基洛特",
     },
-    displayID = 11142,
     minlevel = 47,
     maxlevel = 47,
     spawns = {
@@ -2395,7 +2272,6 @@ RareScanner335_NPCs = {
       zhCN = "灰腹老熊",
       zhTW = "灰腹老熊",
     },
-    displayID = 706,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -2414,7 +2290,6 @@ RareScanner335_NPCs = {
       zhCN = "纳尔利夫",
       zhTW = "格納爾·葉伴",
     },
-    displayID = 2168,
     minlevel = 44,
     maxlevel = 44,
     spawns = {
@@ -2433,7 +2308,6 @@ RareScanner335_NPCs = {
       zhCN = "咆哮者",
       zhTW = "咆哮者",
     },
-    displayID = 780,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -2452,7 +2326,6 @@ RareScanner335_NPCs = {
       zhCN = "食尸者维萨克",
       zhTW = "『食人者』維薩克",
     },
-    displayID = 6695,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -2467,7 +2340,6 @@ RareScanner335_NPCs = {
       zhCN = "泽基斯",
       zhTW = "澤基斯",
     },
-    displayID = 6693,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -2486,7 +2358,6 @@ RareScanner335_NPCs = {
       zhCN = "海特拉什",
       zhTW = "鷹女海特拉什",
     },
-    displayID = 2163,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -2505,7 +2376,6 @@ RareScanner335_NPCs = {
       zhCN = "断矛",
       zhTW = "斷矛",
     },
-    displayID = 275,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -2524,7 +2394,6 @@ RareScanner335_NPCs = {
       zhCN = "执行者埃米尔冈德",
       zhTW = "執行者埃米爾岡德",
     },
-    displayID = 6692,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -2543,7 +2412,6 @@ RareScanner335_NPCs = {
       zhCN = "艾恩·流水",
       zhTW = "艾恩·流水",
     },
-    displayID = 4345,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -2562,7 +2430,6 @@ RareScanner335_NPCs = {
       zhCN = "索拉·羽月",
       zhTW = "索拉·羽月",
     },
-    displayID = 4346,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -2581,7 +2448,6 @@ RareScanner335_NPCs = {
       zhCN = "汉娜·刃叶",
       zhTW = "漢娜·刃葉",
     },
-    displayID = 4348,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -2600,7 +2466,6 @@ RareScanner335_NPCs = {
       zhCN = "马库斯·拜尔",
       zhTW = "馬庫斯·拜爾",
     },
-    displayID = 4347,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -2619,7 +2484,6 @@ RareScanner335_NPCs = {
       zhCN = "扫荡者",
       zhTW = "掃蕩者",
     },
-    displayID = 1973,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -2638,7 +2502,6 @@ RareScanner335_NPCs = {
       zhCN = "科卡尼斯",
       zhTW = "督軍科卡尼斯",
     },
-    displayID = 9444,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -2657,7 +2520,6 @@ RareScanner335_NPCs = {
       zhCN = "指挥官萨拉菲尔",
       zhTW = "指揮官薩拉菲爾",
     },
-    displayID = 4592,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -2676,7 +2538,6 @@ RareScanner335_NPCs = {
       zhCN = "斯考恩",
       zhTW = "惡魔編織者斯考恩",
     },
-    displayID = 4594,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -2695,7 +2556,6 @@ RareScanner335_NPCs = {
       zhCN = "死亡毒蝎",
       zhTW = "死亡毒蠍",
     },
-    displayID = 2491,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -2714,7 +2574,6 @@ RareScanner335_NPCs = {
       zhCN = "獠牙队长",
       zhTW = "獠牙隊長",
     },
-    displayID = 1346,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -2733,7 +2592,6 @@ RareScanner335_NPCs = {
       zhCN = "吉欧洛德·杂斑",
       zhTW = "吉歐洛德·雜斑",
     },
-    displayID = 6113,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -2748,7 +2606,6 @@ RareScanner335_NPCs = {
       zhCN = "布隆塔斯",
       zhTW = "布隆塔斯",
     },
-    displayID = 1308,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -2767,7 +2624,6 @@ RareScanner335_NPCs = {
       zhCN = "狮王休玛",
       zhTW = "『獅王』修瑪",
     },
-    displayID = 4424,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -2786,7 +2642,6 @@ RareScanner335_NPCs = {
       zhCN = "土狼斯诺特",
       zhTW = "土狼斯諾特",
     },
-    displayID = 2713,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -2805,7 +2660,6 @@ RareScanner335_NPCs = {
       zhCN = "莱丝塔伦",
       zhTW = "鷹女萊絲塔倫",
     },
-    displayID = 10876,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -2824,7 +2678,6 @@ RareScanner335_NPCs = {
       zhCN = "迅鬃斑马",
       zhTW = "迅鬃斑馬",
     },
-    displayID = 6084,
     minlevel = 21,
     maxlevel = 21,
     spawns = {
@@ -2843,7 +2696,6 @@ RareScanner335_NPCs = {
       zhCN = "雷蹄蜥蜴",
       zhTW = "雷蹄蜥蜴",
     },
-    displayID = 6085,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -2862,7 +2714,6 @@ RareScanner335_NPCs = {
       zhCN = "天空之刃艾泽里",
       zhTW = "天空之刃艾澤里",
     },
-    displayID = 2702,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -2881,7 +2732,6 @@ RareScanner335_NPCs = {
       zhCN = "工头葛瑞尔斯",
       zhTW = "工頭葛瑞爾斯",
     },
-    displayID = 4593,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -2900,7 +2750,6 @@ RareScanner335_NPCs = {
       zhCN = "技师维尔雷格",
       zhTW = "工程師維爾雷格",
     },
-    displayID = 7049,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -2919,7 +2768,6 @@ RareScanner335_NPCs = {
       zhCN = "石臂",
       zhTW = "石臂",
     },
-    displayID = 4874,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -2938,7 +2786,6 @@ RareScanner335_NPCs = {
       zhCN = "断矛",
       zhTW = "斷矛",
     },
-    displayID = 9448,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -2957,7 +2804,6 @@ RareScanner335_NPCs = {
       zhCN = "石枪",
       zhTW = "石槍",
     },
-    displayID = 9533,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -2976,7 +2822,6 @@ RareScanner335_NPCs = {
       zhCN = "\\\"跳跃者\\\"塔克",
       zhTW = "『跳躍者』塔克",
     },
-    displayID = 1337,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -2995,7 +2840,6 @@ RareScanner335_NPCs = {
       zhCN = "赫金·石须",
       zhTW = "赫金·石鬚",
     },
-    displayID = 4595,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -3014,7 +2858,6 @@ RareScanner335_NPCs = {
       zhCN = "玛尔金·麦酒",
       zhTW = "瑪爾金·麥酒",
     },
-    displayID = 4597,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -3033,7 +2876,6 @@ RareScanner335_NPCs = {
       zhCN = "矿工弗雷姆",
       zhTW = "礦工弗雷姆",
     },
-    displayID = 4596,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -3052,7 +2894,6 @@ RareScanner335_NPCs = {
       zhCN = "基洛戈·锤趾队长",
       zhTW = "基洛戈·錘趾隊長",
     },
-    displayID = 4598,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -3071,7 +2912,6 @@ RareScanner335_NPCs = {
       zhCN = "哈格",
       zhTW = "哈格",
     },
-    displayID = 6114,
     minlevel = 26,
     maxlevel = 26,
     spawns = {
@@ -3090,7 +2930,6 @@ RareScanner335_NPCs = {
       zhCN = "土地祭司古科罗克",
       zhTW = "土地祭司古科羅克",
     },
-    displayID = 6116,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -3109,7 +2948,6 @@ RareScanner335_NPCs = {
       zhCN = "斯文格加特·矛鬃",
       zhTW = "斯文格加特·矛鬃",
     },
-    displayID = 6117,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -3124,7 +2962,6 @@ RareScanner335_NPCs = {
       zhCN = "迪舒",
       zhTW = "迪舒",
     },
-    displayID = 1043,
     minlevel = 13,
     maxlevel = 13,
     spawns = {
@@ -3143,7 +2980,6 @@ RareScanner335_NPCs = {
       zhCN = "变异精灵龙",
       zhTW = "變異精靈龍",
     },
-    displayID = 1267,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -3162,7 +2998,6 @@ RareScanner335_NPCs = {
       zhCN = "拉文诺克修士",
       zhTW = "拉文諾克修士",
     },
-    displayID = 4599,
     minlevel = 29,
     maxlevel = 29,
     spawns = {
@@ -3181,7 +3016,6 @@ RareScanner335_NPCs = {
       zhCN = "哨兵阿玛拉珊",
       zhTW = "哨兵阿瑪拉珊",
     },
-    displayID = 11356,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -3200,7 +3034,6 @@ RareScanner335_NPCs = {
       zhCN = "悲哀之翼",
       zhTW = "悲哀之翼",
     },
-    displayID = 11012,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -3219,7 +3052,6 @@ RareScanner335_NPCs = {
       zhCN = "瑞雯",
       zhTW = "鷹女瑞雯",
     },
-    displayID = 10875,
     minlevel = 28,
     maxlevel = 28,
     spawns = {
@@ -3239,7 +3071,6 @@ RareScanner335_NPCs = {
       zhCN = "工头里格尔",
       zhTW = "工頭里格爾",
     },
-    displayID = 4600,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -3258,7 +3089,6 @@ RareScanner335_NPCs = {
       zhCN = "工头维普弗恩",
       zhTW = "監工維普弗恩",
     },
-    displayID = 487,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -3277,7 +3107,6 @@ RareScanner335_NPCs = {
       zhCN = "被流放的阿切鲁斯",
       zhTW = "被流放的阿切魯斯",
     },
-    displayID = 9418,
     minlevel = 31,
     maxlevel = 31,
     spawns = {
@@ -3296,7 +3125,6 @@ RareScanner335_NPCs = {
       zhCN = "哈特拉斯",
       zhTW = "撕心者",
     },
-    displayID = 11011,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -3315,7 +3143,6 @@ RareScanner335_NPCs = {
       zhCN = "不可战胜的铁眼",
       zhTW = "無敵的鐵眼",
     },
-    displayID = 2076,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -3334,7 +3161,6 @@ RareScanner335_NPCs = {
       zhCN = "邪刺恐蝎",
       zhTW = "邪刺恐蠍",
     },
-    displayID = 10988,
     minlevel = 35,
     maxlevel = 35,
     spawns = {
@@ -3353,7 +3179,6 @@ RareScanner335_NPCs = {
       zhCN = "瓦罗森的幽灵",
       zhTW = "瓦羅森的鬼魂",
     },
-    displayID = 10771,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -3372,7 +3197,6 @@ RareScanner335_NPCs = {
       zhCN = "黑铁大使",
       zhTW = "黑鐵大使",
     },
-    displayID = 6669,
     minlevel = 28,
     maxlevel = 28,
     spawns = {
@@ -3391,7 +3215,6 @@ RareScanner335_NPCs = {
       zhCN = "死灵勇士",
       zhTW = "亡靈勇士",
     },
-    displayID = 5230,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -3410,7 +3233,6 @@ RareScanner335_NPCs = {
       zhCN = "铁脊死灵",
       zhTW = "鐵脊死靈",
     },
-    displayID = 5231,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -3429,7 +3251,6 @@ RareScanner335_NPCs = {
       zhCN = "永醒的艾希尔",
       zhTW = "不眠的艾希爾",
     },
-    displayID = 5534,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -3448,7 +3269,6 @@ RareScanner335_NPCs = {
       zhCN = "暴掠龙女王",
       zhTW = "暴掠龍族母",
     },
-    displayID = 11319,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -3467,7 +3287,6 @@ RareScanner335_NPCs = {
       zhCN = "萨瓦丝女王",
       zhTW = "薩瓦絲女王",
     },
-    displayID = 11084,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -3482,7 +3301,6 @@ RareScanner335_NPCs = {
       zhCN = "格鲁夫",
       zhTW = "格魯夫",
     },
-    displayID = 10932,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -3501,7 +3319,6 @@ RareScanner335_NPCs = {
       zhCN = "暴龙之王摩什",
       zhTW = "暴龍之王摩什",
     },
-    displayID = 5305,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -3516,7 +3333,6 @@ RareScanner335_NPCs = {
       zhCN = "乌卡洛克",
       zhTW = "烏卡洛克",
     },
-    displayID = 8129,
     minlevel = 52,
     maxlevel = 53,
     spawns = {
@@ -3535,7 +3351,6 @@ RareScanner335_NPCs = {
       zhCN = "长者莫诺斯",
       zhTW = "長者莫諾斯",
     },
-    displayID = 10042,
     minlevel = 53,
     maxlevel = 54,
     spawns = {
@@ -3554,7 +3369,6 @@ RareScanner335_NPCs = {
       zhCN = "玛济斯·鹰盔",
       zhTW = "博學者鷹盔",
     },
-    displayID = 21180,
     minlevel = 51,
     maxlevel = 52,
     spawns = {
@@ -3569,7 +3383,6 @@ RareScanner335_NPCs = {
       zhCN = "安提里奥斯",
       zhTW = "安提里奧斯",
     },
-    displayID = 3212,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -3585,7 +3398,6 @@ RareScanner335_NPCs = {
       zhCN = "瑟丝彼拉",
       zhTW = "瑟絲彼拉女士",
     },
-    displayID = 11261,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -3603,7 +3415,6 @@ RareScanner335_NPCs = {
       zhCN = "方弗罗将军",
       zhTW = "方弗羅將軍",
     },
-    displayID = 11257,
     minlevel = 50,
     maxlevel = 51,
     spawns = {
@@ -3622,7 +3433,6 @@ RareScanner335_NPCs = {
       zhCN = "拉格罗尔",
       zhTW = "拉格羅爾",
     },
-    displayID = 1012,
     minlevel = 49,
     maxlevel = 50,
     spawns = {
@@ -3641,7 +3451,6 @@ RareScanner335_NPCs = {
       zhCN = "菲达雷德",
       zhTW = "菲達雷德",
     },
-    displayID = 2687,
     minlevel = 51,
     maxlevel = 52,
     spawns = {
@@ -3660,7 +3469,6 @@ RareScanner335_NPCs = {
       zhCN = "残忍的弗拉格莫克",
       zhTW = "殘忍的弗拉格莫克",
     },
-    displayID = 1305,
     minlevel = 16,
     maxlevel = 16,
     spawns = {
@@ -3676,7 +3484,6 @@ RareScanner335_NPCs = {
       zhCN = "薇丝普拉",
       zhTW = "薇絲普拉",
     },
-    displayID = 4982,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -3695,7 +3502,6 @@ RareScanner335_NPCs = {
       zhCN = "辛斯雷尔",
       zhTW = "辛斯雷爾領主",
     },
-    displayID = 4762,
     minlevel = 15,
     maxlevel = 16,
     spawns = {
@@ -3714,7 +3520,6 @@ RareScanner335_NPCs = {
       zhCN = "挖掘专家舒尔弗拉格",
       zhTW = "挖掘專家舒爾弗拉格",
     },
-    displayID = 7220,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -3730,7 +3535,6 @@ RareScanner335_NPCs = {
       zhCN = "迪塞库斯",
       zhTW = "迪塞庫斯",
     },
-    displayID = 9013,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -3746,7 +3550,6 @@ RareScanner335_NPCs = {
       zhCN = "伊姆拉图斯",
       zhTW = "伊姆拉圖斯",
     },
-    displayID = 7029,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -3765,7 +3568,6 @@ RareScanner335_NPCs = {
       zhCN = "布拉德雷大使",
       zhTW = "布拉德雷大使",
     },
-    displayID = 7043,
     minlevel = 35,
     maxlevel = 35,
     spawns = {
@@ -3784,7 +3586,6 @@ RareScanner335_NPCs = {
       zhCN = "克莱吉拉克",
       zhTW = "克萊吉拉克",
     },
-    displayID = 9023,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -3803,7 +3604,6 @@ RareScanner335_NPCs = {
       zhCN = "唤沙者辛萨拉",
       zhTW = "喚沙者辛薩拉",
     },
-    displayID = 9024,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -3822,7 +3622,6 @@ RareScanner335_NPCs = {
       zhCN = "失落者奥姆高尔",
       zhTW = "『失落者』歐姆高爾",
     },
-    displayID = 11570,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -3843,7 +3642,6 @@ RareScanner335_NPCs = {
       zhCN = "疯狂的塞科洛克",
       zhTW = "瘋狂的塞科洛克",
     },
-    displayID = 11532,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -3862,7 +3660,6 @@ RareScanner335_NPCs = {
       zhCN = "克雷格·尼哈鲁",
       zhTW = "克雷格·尼哈魯",
     },
-    displayID = 7509,
     minlevel = 47,
     maxlevel = 47,
     spawns = {
@@ -3881,7 +3678,6 @@ RareScanner335_NPCs = {
       zhCN = "吞噬者索利德",
       zhTW = "『吞噬者』索利德",
     },
-    displayID = 11106,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -3900,7 +3696,6 @@ RareScanner335_NPCs = {
       zhCN = "贪婪的哈尔卡",
       zhTW = "貪婪的哈爾卡",
     },
-    displayID = 11092,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -3919,7 +3714,6 @@ RareScanner335_NPCs = {
       zhCN = "巨型火鸟",
       zhTW = "巨型火鳥",
     },
-    displayID = 7349,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -3938,7 +3732,6 @@ RareScanner335_NPCs = {
       zhCN = "残忍的疱爪土狼",
       zhTW = "殘忍的皰爪土狼",
     },
-    displayID = 1534,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -3957,7 +3750,6 @@ RareScanner335_NPCs = {
       zhCN = "锋爪",
       zhTW = "鋒爪",
     },
-    displayID = 5927,
     minlevel = 44,
     maxlevel = 44,
     spawns = {
@@ -3976,7 +3768,6 @@ RareScanner335_NPCs = {
       zhCN = "海崖奔跳者",
       zhTW = "海崖奔跳者",
     },
-    displayID = 11414,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -3995,7 +3786,6 @@ RareScanner335_NPCs = {
       zhCN = "雷克",
       zhTW = "雷克",
     },
-    displayID = 1306,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -4014,7 +3804,6 @@ RareScanner335_NPCs = {
       zhCN = "铁背龟",
       zhTW = "鐵背龜",
     },
-    displayID = 7840,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -4033,7 +3822,6 @@ RareScanner335_NPCs = {
       zhCN = "加林德·夏龙",
       zhTW = "加林德·夏龍",
     },
-    displayID = 19816,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -4050,7 +3838,6 @@ RareScanner335_NPCs = {
       zhCN = "格瑞姆格斯",
       zhTW = "格瑞姆格斯",
     },
-    displayID = 12816,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -4069,7 +3856,6 @@ RareScanner335_NPCs = {
       zhCN = "狂暴者雷瑟罗克",
       zhTW = "『狂暴者』雷瑟羅克",
     },
-    displayID = 28248,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -4088,7 +3874,6 @@ RareScanner335_NPCs = {
       zhCN = "附魔师米瑟雷希斯",
       zhTW = "『附魔師』米瑟雷希斯",
     },
-    displayID = 28248,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -4107,7 +3892,6 @@ RareScanner335_NPCs = {
       zhCN = "漫步者维瑟哈特",
       zhTW = "『漫步者』維瑟哈特",
     },
-    displayID = 28230,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -4126,7 +3910,6 @@ RareScanner335_NPCs = {
       zhCN = "祖拉雷克",
       zhTW = "祖拉雷克",
     },
-    displayID = 28230,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -4142,7 +3925,6 @@ RareScanner335_NPCs = {
       zhCN = "雷克提拉克",
       zhTW = "雷克提拉克",
     },
-    displayID = 4458,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -4162,7 +3944,6 @@ RareScanner335_NPCs = {
       zhCN = "斯莫达尔",
       zhTW = "斯莫達爾",
     },
-    displayID = 5781,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -4181,7 +3962,6 @@ RareScanner335_NPCs = {
       zhCN = "未完善的作战傀儡",
       zhTW = "未完善的作戰魔像",
     },
-    displayID = 10800,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -4200,7 +3980,6 @@ RareScanner335_NPCs = {
       zhCN = "夏雷纳尔",
       zhTW = "夏雷納爾",
     },
-    displayID = 2346,
     minlevel = 47,
     maxlevel = 47,
     spawns = {
@@ -4218,7 +3997,6 @@ RareScanner335_NPCs = {
       zhCN = "斯卡尔德",
       zhTW = "斯卡爾德",
     },
-    displayID = 1204,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -4238,7 +4016,6 @@ RareScanner335_NPCs = {
       zhCN = "玛斯托格",
       zhTW = "大領主瑪斯托格",
     },
-    displayID = 7835,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -4260,7 +4037,6 @@ RareScanner335_NPCs = {
       zhCN = "奴隶主托恩·黑心",
       zhTW = "奴隸主托恩·黑心",
     },
-    displayID = 7819,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -4283,7 +4059,6 @@ RareScanner335_NPCs = {
       zhCN = "扭曲者莫吉尔",
       zhTW = "『扭曲者』莫吉爾",
     },
-    displayID = 11562,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -4305,7 +4080,6 @@ RareScanner335_NPCs = {
       zhCN = "顽强的玛古诺斯",
       zhTW = "不屈的瑪古諾斯",
     },
-    displayID = 11564,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -4333,7 +4107,6 @@ RareScanner335_NPCs = {
       zhCN = "先知阿库巴尔",
       zhTW = "『先知』阿庫巴爾",
     },
-    displayID = 10920,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -4359,7 +4132,6 @@ RareScanner335_NPCs = {
       zhCN = "斯比弗雷尔",
       zhTW = "斯比弗雷爾",
     },
-    displayID = 388,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -4391,7 +4163,6 @@ RareScanner335_NPCs = {
       zhCN = "毁灭",
       zhTW = "毀滅",
     },
-    displayID = 10904,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -4423,7 +4194,6 @@ RareScanner335_NPCs = {
       zhCN = "掠夺者科拉克",
       zhTW = "『搶奪者』科拉克",
     },
-    displayID = 10983,
     minlevel = 53,
     maxlevel = 53,
     spawns = {
@@ -4458,7 +4228,6 @@ RareScanner335_NPCs = {
       zhCN = "死眼",
       zhTW = "死眼",
     },
-    displayID = 2174,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -4488,7 +4257,6 @@ RareScanner335_NPCs = {
       zhCN = "格朗特",
       zhTW = "格朗特",
     },
-    displayID = 8870,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -4524,7 +4292,6 @@ RareScanner335_NPCs = {
       zhCN = "德雷斯克恩",
       zhTW = "德雷斯克恩",
     },
-    displayID = 7844,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -4541,7 +4308,6 @@ RareScanner335_NPCs = {
       zhCN = "吉波维特",
       zhTW = "吉波維特",
     },
-    displayID = 7807,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -4561,7 +4327,6 @@ RareScanner335_NPCs = {
       zhCN = "伊夫卡尔",
       zhTW = "伊夫卡爾",
     },
-    displayID = 10807,
     minlevel = 48,
     maxlevel = 48,
     spawns = {
@@ -4580,7 +4345,6 @@ RareScanner335_NPCs = {
       zhCN = "无敌的潘佐尔",
       zhTW = "無敵的潘佐爾",
     },
-    displayID = 8270,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -4599,7 +4363,6 @@ RareScanner335_NPCs = {
       zhCN = "贝哈默斯",
       zhTW = "貝希摩斯",
     },
-    displayID = 8390,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -4615,7 +4378,6 @@ RareScanner335_NPCs = {
       zhCN = "赫玛图斯",
       zhTW = "赫瑪多斯",
     },
-    displayID = 6369,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -4630,7 +4392,6 @@ RareScanner335_NPCs = {
       zhCN = "萨里斯·巴加尔",
       zhTW = "薩里斯·巴加爾",
     },
-    displayID = 11511,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -4653,7 +4414,6 @@ RareScanner335_NPCs = {
       zhCN = "格鲁克拉什",
       zhTW = "格魯克拉什",
     },
-    displayID = 11510,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -4678,7 +4438,6 @@ RareScanner335_NPCs = {
       zhCN = "失控的掠夺者",
       zhTW = "失控的搶奪者",
     },
-    displayID = 10802,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -4701,7 +4460,6 @@ RareScanner335_NPCs = {
       zhCN = "控火师罗格雷恩",
       zhTW = "控火師羅格雷恩",
     },
-    displayID = 8762,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -4720,7 +4478,6 @@ RareScanner335_NPCs = {
       zhCN = "典狱官斯迪尔基斯",
       zhTW = "守衛斯迪爾基斯",
     },
-    displayID = 9089,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -4735,7 +4492,6 @@ RareScanner335_NPCs = {
       zhCN = "维雷克",
       zhTW = "維雷克",
     },
-    displayID = 9019,
     minlevel = 53,
     maxlevel = 53,
     spawns = {
@@ -4754,7 +4510,6 @@ RareScanner335_NPCs = {
       zhCN = "裂盾军需官",
       zhTW = "裂盾軍需官",
     },
-    displayID = 8900,
     minlevel = 55,
     maxlevel = 55,
     spawns = {
@@ -4773,7 +4528,6 @@ RareScanner335_NPCs = {
       zhCN = "尖石首席法师",
       zhTW = "尖石首席魔導師",
     },
-    displayID = 11578,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -4792,7 +4546,6 @@ RareScanner335_NPCs = {
       zhCN = "尖石统帅",
       zhTW = "尖石戰鬥統帥",
     },
-    displayID = 11576,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -4811,7 +4564,6 @@ RareScanner335_NPCs = {
       zhCN = "尖石屠夫",
       zhTW = "尖石屠夫",
     },
-    displayID = 11574,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -4830,7 +4582,6 @@ RareScanner335_NPCs = {
       zhCN = "班诺克·巨斧",
       zhTW = "班諾克·巨斧",
     },
-    displayID = 9668,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -4845,7 +4596,6 @@ RareScanner335_NPCs = {
       zhCN = "哈克佐尔",
       zhTW = "哈克佐爾",
     },
-    displayID = 11564,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -4863,7 +4613,6 @@ RareScanner335_NPCs = {
       zhCN = "高戈诺奇",
       zhTW = "高戈諾奇",
     },
-    displayID = 11562,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -4886,7 +4635,6 @@ RareScanner335_NPCs = {
       zhCN = "霍克·巴什古德",
       zhTW = "霍克·巴什古德",
     },
-    displayID = 11809,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -4905,7 +4653,6 @@ RareScanner335_NPCs = {
       zhCN = "死亡之喉",
       zhTW = "死亡之喉",
     },
-    displayID = 9562,
     minlevel = 53,
     maxlevel = 53,
     spawns = {
@@ -4927,7 +4674,6 @@ RareScanner335_NPCs = {
       zhCN = "特罗斯巴克",
       zhTW = "特羅斯巴克",
     },
-    displayID = 1018,
     minlevel = 55,
     maxlevel = 55,
     spawns = {
@@ -4953,7 +4699,6 @@ RareScanner335_NPCs = {
       zhCN = "杉达尔·沙掠者",
       zhTW = "杉達爾·沙掠者",
     },
-    displayID = 9291,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -4972,7 +4717,6 @@ RareScanner335_NPCs = {
       zhCN = "灰尘怨灵",
       zhTW = "灰塵怨靈",
     },
-    displayID = 9292,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -4987,7 +4731,6 @@ RareScanner335_NPCs = {
       zhCN = "泽雷利斯",
       zhTW = "澤雷利斯",
     },
-    displayID = 9293,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -5003,7 +4746,6 @@ RareScanner335_NPCs = {
       zhCN = "科巴塔恩将军",
       zhTW = "科巴塔恩將軍",
     },
-    displayID = 9489,
     minlevel = 56,
     maxlevel = 57,
     spawns = {
@@ -5022,7 +4764,6 @@ RareScanner335_NPCs = {
       zhCN = "嚎叫者米基尔",
       zhTW = "『嚎叫者』米基爾",
     },
-    displayID = 3208,
     minlevel = 55,
     maxlevel = 55,
     spawns = {
@@ -5041,7 +4782,6 @@ RareScanner335_NPCs = {
       zhCN = "劫掠者卡苏克",
       zhTW = "『搶奪者』卡蘇克",
     },
-    displayID = 10317,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5060,7 +4800,6 @@ RareScanner335_NPCs = {
       zhCN = "雪爪灰熊怪",
       zhTW = "雪爪灰熊怪",
     },
-    displayID = 9491,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5075,7 +4814,6 @@ RareScanner335_NPCs = {
       zhCN = "拉克西里",
       zhTW = "拉克西里",
     },
-    displayID = 10054,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -5091,7 +4829,6 @@ RareScanner335_NPCs = {
       zhCN = "赫达琳",
       zhTW = "赫達琳女士",
     },
-    displayID = 10925,
     minlevel = 61,
     maxlevel = 61,
     spawns = {
@@ -5106,7 +4843,6 @@ RareScanner335_NPCs = {
       zhCN = "埃苏罗斯",
       zhTW = "埃蘇羅斯",
     },
-    displayID = 6373,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5125,7 +4861,6 @@ RareScanner335_NPCs = {
       zhCN = "燃烧地狱卫士",
       zhTW = "燃燒惡魔守衛",
     },
-    displayID = 5047,
     minlevel = 56,
     maxlevel = 57,
     spawns = {
@@ -5140,7 +4875,6 @@ RareScanner335_NPCs = {
       zhCN = "贝恩",
       zhTW = "貝恩",
     },
-    displayID = 7892,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -5159,7 +4893,6 @@ RareScanner335_NPCs = {
       zhCN = "毒针雷萨恩",
       zhTW = "『激怒者』雷薩恩",
     },
-    displayID = 9750,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -5178,7 +4911,6 @@ RareScanner335_NPCs = {
       zhCN = "菲林森特的阴影",
       zhTW = "菲林森特的陰影",
     },
-    displayID = 5430,
     minlevel = 12,
     maxlevel = 12,
     spawns = {
@@ -5193,7 +4925,6 @@ RareScanner335_NPCs = {
       zhCN = "瑟斯库克",
       zhTW = "瑟斯庫克",
     },
-    displayID = 418,
     minlevel = 13,
     maxlevel = 13,
     spawns = {
@@ -5212,7 +4943,6 @@ RareScanner335_NPCs = {
       zhCN = "水晶之牙",
       zhTW = "水晶之牙",
     },
-    displayID = 9755,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5228,7 +4958,6 @@ RareScanner335_NPCs = {
       zhCN = "斯库尔",
       zhTW = "斯庫爾",
     },
-    displayID = 2606,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -5247,7 +4976,6 @@ RareScanner335_NPCs = {
       zhCN = "杰德",
       zhTW = "傑德",
     },
-    displayID = 9686,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5266,7 +4994,6 @@ RareScanner335_NPCs = {
       zhCN = "弗雷斯特恩",
       zhTW = "弗雷斯特恩",
     },
-    displayID = 10482,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -5282,7 +5009,6 @@ RareScanner335_NPCs = {
       zhCN = "薇丝比娅",
       zhTW = "薇絲比婭女士",
     },
-    displayID = 4979,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -5299,7 +5025,6 @@ RareScanner335_NPCs = {
       zhCN = "洛吉什",
       zhTW = "洛吉什",
     },
-    displayID = 6800,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -5318,7 +5043,6 @@ RareScanner335_NPCs = {
       zhCN = "橡爪",
       zhTW = "橡爪",
     },
-    displayID = 5773,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -5337,7 +5061,6 @@ RareScanner335_NPCs = {
       zhCN = "钳枝沼泽兽",
       zhTW = "鉗枝沼澤獸",
     },
-    displayID = 8389,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -5352,7 +5075,6 @@ RareScanner335_NPCs = {
       zhCN = "埃卡洛姆",
       zhTW = "埃卡洛姆",
     },
-    displayID = 5561,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -5371,7 +5093,6 @@ RareScanner335_NPCs = {
       zhCN = "玛戈芬",
       zhTW = "瑪戈芬",
     },
-    displayID = 11293,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -5391,7 +5112,6 @@ RareScanner335_NPCs = {
       zhCN = "迷雾嚎叫者",
       zhTW = "迷霧嚎叫者",
     },
-    displayID = 165,
     minlevel = 22,
     maxlevel = 22,
     spawns = {
@@ -5412,7 +5132,6 @@ RareScanner335_NPCs = {
       zhCN = "拉兹王子",
       zhTW = "拉茲王子",
     },
-    displayID = 11331,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -5431,7 +5150,6 @@ RareScanner335_NPCs = {
       zhCN = "石脊",
       zhTW = "石脊",
     },
-    displayID = 7856,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5449,7 +5167,6 @@ RareScanner335_NPCs = {
       zhCN = "杜甘·蛮锤",
       zhTW = "杜甘·蠻錘",
     },
-    displayID = 10374,
     minlevel = 55,
     maxlevel = 55,
     spawns = {
@@ -5471,7 +5188,6 @@ RareScanner335_NPCs = {
       zhCN = "瑞格雷沃公爵",
       zhTW = "瑞格雷沃公爵",
     },
-    displayID = 6380,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -5489,7 +5205,6 @@ RareScanner335_NPCs = {
       zhCN = "腐烂者海德姆什",
       zhTW = "『腐爛者』海德姆什",
     },
-    displayID = 10709,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -5508,7 +5223,6 @@ RareScanner335_NPCs = {
       zhCN = "塔雷什森",
       zhTW = "督軍塔雷什森",
     },
-    displayID = 10452,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -5527,7 +5241,6 @@ RareScanner335_NPCs = {
       zhCN = "祖布林·扭枝",
       zhTW = "祖布林·扭枝",
     },
-    displayID = 10443,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5546,7 +5259,6 @@ RareScanner335_NPCs = {
       zhCN = "游侠之王霍克斯比尔",
       zhTW = "遊俠之王霍克斯比爾",
     },
-    displayID = 19824,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5565,7 +5277,6 @@ RareScanner335_NPCs = {
       zhCN = "僵硬的吉斯",
       zhTW = "僵硬的吉斯",
     },
-    displayID = 7856,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -5584,7 +5295,6 @@ RareScanner335_NPCs = {
       zhCN = "黑暗镰刀",
       zhTW = "暗鐮領主",
     },
-    displayID = 7847,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -5603,7 +5313,6 @@ RareScanner335_NPCs = {
       zhCN = "亡语者塞伦德",
       zhTW = "亡語者塞倫德",
     },
-    displayID = 10432,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -5622,7 +5331,6 @@ RareScanner335_NPCs = {
       zhCN = "阿比迪斯将军",
       zhTW = "大將軍阿比迪斯",
     },
-    displayID = 10431,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5641,7 +5349,6 @@ RareScanner335_NPCs = {
       zhCN = "古拉鲁克",
       zhTW = "古拉魯克",
     },
-    displayID = 10222,
     minlevel = 61,
     maxlevel = 61,
     spawns = {
@@ -5660,7 +5367,6 @@ RareScanner335_NPCs = {
       zhCN = "高阶祭司海瓦纳",
       zhTW = "高階祭司海瓦納",
     },
-    displayID = 11295,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -5678,7 +5384,6 @@ RareScanner335_NPCs = {
       zhCN = "姆斯高格",
       zhTW = "姆斯高格",
     },
-    displayID = 14382,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5693,7 +5398,6 @@ RareScanner335_NPCs = {
       zhCN = "苏斯",
       zhTW = "蘇斯",
     },
-    displayID = 11250,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -5712,7 +5416,6 @@ RareScanner335_NPCs = {
       zhCN = "拉扎尔",
       zhTW = "拉札",
     },
-    displayID = 12683,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5731,7 +5434,6 @@ RareScanner335_NPCs = {
       zhCN = "无敌的斯卡尔",
       zhTW = "無敵的斯卡爾",
     },
-    displayID = 10169,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -5750,7 +5452,6 @@ RareScanner335_NPCs = {
       zhCN = "被诅咒的半人马",
       zhTW = "被詛咒的半人馬",
     },
-    displayID = 11640,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -5765,7 +5466,6 @@ RareScanner335_NPCs = {
       zhCN = "乌索洛克",
       zhTW = "烏索洛克",
     },
-    displayID = 706,
     minlevel = 31,
     maxlevel = 31,
     spawns = {
@@ -5784,7 +5484,6 @@ RareScanner335_NPCs = {
       zhCN = "艾露恩的女祭司",
       zhTW = "伊露恩的女祭司",
     },
-    displayID = 12169,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -5802,7 +5501,6 @@ RareScanner335_NPCs = {
       zhCN = "收割者麦什洛克",
       zhTW = "『收割者』麥什洛克",
     },
-    displayID = 9014,
     minlevel = 46,
     maxlevel = 46,
     spawns = {
@@ -5821,7 +5519,6 @@ RareScanner335_NPCs = {
       zhCN = "血牙狼人",
       zhTW = "血牙狼人",
     },
-    displayID = 11413,
     minlevel = 13,
     maxlevel = 13,
     spawns = {
@@ -5840,7 +5537,6 @@ RareScanner335_NPCs = {
       zhCN = "维斯迦尔",
       zhTW = "維斯迦爾",
     },
-    displayID = 982,
     minlevel = 14,
     maxlevel = 14,
     spawns = {
@@ -5859,7 +5555,6 @@ RareScanner335_NPCs = {
       zhCN = "克雷希斯",
       zhTW = "克雷希斯",
     },
-    displayID = 368,
     minlevel = 15,
     maxlevel = 15,
     spawns = {
@@ -5878,7 +5573,6 @@ RareScanner335_NPCs = {
       zhCN = "鳞须海龟",
       zhTW = "鱗鬚海龜",
     },
-    displayID = 7046,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -5897,7 +5591,6 @@ RareScanner335_NPCs = {
       zhCN = "格拉维斯·斯里诺特",
       zhTW = "格拉維斯·斯里諾特",
     },
-    displayID = 2582,
     minlevel = 36,
     maxlevel = 36,
     spawns = {
@@ -5912,7 +5605,6 @@ RareScanner335_NPCs = {
       zhCN = "阿拉加",
       zhTW = "阿拉加",
     },
-    displayID = 1933,
     minlevel = 35,
     maxlevel = 35,
     spawns = {
@@ -5933,7 +5625,6 @@ RareScanner335_NPCs = {
       zhCN = "暴躁的本希",
       zhTW = "暴躁的本希",
     },
-    displayID = 5026,
     minlevel = 32,
     maxlevel = 32,
     spawns = {
@@ -5952,7 +5643,6 @@ RareScanner335_NPCs = {
       zhCN = "7:XT",
       zhTW = "7:XT",
     },
-    displayID = 6889,
     minlevel = 41,
     maxlevel = 41,
     spawns = {
@@ -5976,7 +5666,6 @@ RareScanner335_NPCs = {
       zhCN = "凯雷恩王子",
       zhTW = "凱雷恩王子",
     },
-    displayID = 6743,
     minlevel = 33,
     maxlevel = 33,
     spawns = {
@@ -5991,7 +5680,6 @@ RareScanner335_NPCs = {
       zhCN = "卡斯克",
       zhTW = "卡斯克",
     },
-    displayID = 14255,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -6006,7 +5694,6 @@ RareScanner335_NPCs = {
       zhCN = "西斯普拉克",
       zhTW = "西斯普拉克",
     },
-    displayID = 2076,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -6025,7 +5712,6 @@ RareScanner335_NPCs = {
       zhCN = "基格勒尔",
       zhTW = "基格勒爾",
     },
-    displayID = 2714,
     minlevel = 34,
     maxlevel = 34,
     spawns = {
@@ -6044,7 +5730,6 @@ RareScanner335_NPCs = {
       zhCN = "可憎的滑刃纳迦",
       zhTW = "可憎的滑刃納迦",
     },
-    displayID = 9135,
     minlevel = 35,
     maxlevel = 35,
     spawns = {
@@ -6063,7 +5748,6 @@ RareScanner335_NPCs = {
       zhCN = "贼眼",
       zhTW = "賊眼",
     },
-    displayID = 391,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -6082,7 +5766,6 @@ RareScanner335_NPCs = {
       zhCN = "咆哮者杜格斯",
       zhTW = "『咆哮者』杜格斯",
     },
-    displayID = 631,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -6102,7 +5785,6 @@ RareScanner335_NPCs = {
       zhCN = "达尔特",
       zhTW = "達爾特",
     },
-    displayID = 788,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -6121,7 +5803,6 @@ RareScanner335_NPCs = {
       zhCN = "雷普斯凯尔",
       zhTW = "雷普斯凱爾",
     },
-    displayID = 2549,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -6137,7 +5818,6 @@ RareScanner335_NPCs = {
       zhCN = "哈尤克",
       zhTW = "哈尤克",
     },
-    displayID = 2703,
     minlevel = 39,
     maxlevel = 39,
     spawns = {
@@ -6156,7 +5836,6 @@ RareScanner335_NPCs = {
       zhCN = "腐烂者",
       zhTW = "腐爛者",
     },
-    displayID = 11140,
     minlevel = 40,
     maxlevel = 40,
     spawns = {
@@ -6174,7 +5853,6 @@ RareScanner335_NPCs = {
       zhCN = "安戈雷尔",
       zhTW = "安戈雷爾領主",
     },
-    displayID = 14257,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -6193,7 +5871,6 @@ RareScanner335_NPCs = {
       zhCN = "泥浆虫",
       zhTW = "泥漿蟲",
     },
-    displayID = 12336,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -6212,7 +5889,6 @@ RareScanner335_NPCs = {
       zhCN = "纺织者杉达",
       zhTW = "『編織者』杉達",
     },
-    displayID = 1103,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -6231,7 +5907,6 @@ RareScanner335_NPCs = {
       zhCN = "摧毁者埃摩戈",
       zhTW = "『碾碎者』埃摩戈",
     },
-    displayID = 3189,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -6247,7 +5922,6 @@ RareScanner335_NPCs = {
       zhCN = "康达尔",
       zhTW = "康達爾",
     },
-    displayID = 14313,
     minlevel = 15,
     maxlevel = 16,
     spawns = {
@@ -6269,7 +5943,6 @@ RareScanner335_NPCs = {
       zhCN = "搜寻者埃库隆",
       zhTW = "搜尋者埃庫隆",
     },
-    displayID = 525,
     minlevel = 21,
     maxlevel = 21,
     spawns = {
@@ -6287,7 +5960,6 @@ RareScanner335_NPCs = {
       zhCN = "斯奎迪克",
       zhTW = "斯奎迪克",
     },
-    displayID = 5243,
     minlevel = 19,
     maxlevel = 19,
     spawns = {
@@ -6336,7 +6008,6 @@ RareScanner335_NPCs = {
       zhCN = "雷布查斯",
       zhTW = "雷布查斯",
     },
-    displayID = 500,
     minlevel = 17,
     maxlevel = 17,
     spawns = {
@@ -6369,7 +6040,6 @@ RareScanner335_NPCs = {
       zhCN = "斯纳弗莱尔",
       zhTW = "斯納弗賴爾",
     },
-    displayID = 497,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -6399,7 +6069,6 @@ RareScanner335_NPCs = {
       zhCN = "波德哈特",
       zhTW = "波德哈特",
     },
-    displayID = 5229,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -6418,8 +6087,6 @@ RareScanner335_NPCs = {
       zhCN = "塔尔玛·雷矛",
       zhTW = "塔爾瑪·雷矛",
     },
-    displayIDs = { 3763, 3764 },
-    displayID = 3763,
     minlevel = 28,
     maxlevel = 28,
     spawns = {
@@ -6438,7 +6105,6 @@ RareScanner335_NPCs = {
       zhCN = "斯卡基尔",
       zhTW = "斯卡基爾",
     },
-    displayID = 540,
     minlevel = 30,
     maxlevel = 30,
     spawns = {
@@ -6454,7 +6120,6 @@ RareScanner335_NPCs = {
       zhCN = "塞菲莉斯",
       zhTW = "塞菲莉斯女士",
     },
-    displayID = 4978,
     minlevel = 33,
     maxlevel = 33,
     spawns = {
@@ -6470,7 +6135,6 @@ RareScanner335_NPCs = {
       zhCN = "洛巴尔克",
       zhTW = "洛巴爾克",
     },
-    displayID = 491,
     minlevel = 28,
     maxlevel = 28,
     spawns = {
@@ -6489,7 +6153,6 @@ RareScanner335_NPCs = {
       zhCN = "克雷普塞斯",
       zhTW = "克雷普塞斯",
     },
-    displayID = 1091,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -6508,7 +6171,6 @@ RareScanner335_NPCs = {
       zhCN = "萨姆拉斯",
       zhTW = "薩姆拉斯",
     },
-    displayID = 706,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -6527,7 +6189,6 @@ RareScanner335_NPCs = {
       zhCN = "流血者吉米",
       zhTW = "『流血者』吉米",
     },
-    displayID = 3616,
     minlevel = 23,
     maxlevel = 23,
     spawns = {
@@ -6546,7 +6207,6 @@ RareScanner335_NPCs = {
       zhCN = "死亡之嚎",
       zhTW = "死亡之嚎",
     },
-    displayID = 11412,
     minlevel = 49,
     maxlevel = 49,
     spawns = {
@@ -6567,7 +6227,6 @@ RareScanner335_NPCs = {
       zhCN = "奥辛尔·灵息",
       zhTW = "奧辛爾·靈息",
     },
-    displayID = 2879,
     minlevel = 54,
     maxlevel = 54,
     spawns = {
@@ -6586,7 +6245,6 @@ RareScanner335_NPCs = {
       zhCN = "拉吉波尔",
       zhTW = "拉吉波爾",
     },
-    displayID = 1012,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -6605,7 +6263,6 @@ RareScanner335_NPCs = {
       zhCN = "智者奥尔姆",
       zhTW = "『智者』奧爾姆",
     },
-    displayID = 6212,
     minlevel = 52,
     maxlevel = 52,
     spawns = {
@@ -6622,7 +6279,6 @@ RareScanner335_NPCs = {
       zhCN = "莫戈雷斯",
       zhTW = "莫戈雷斯",
     },
-    displayID = 14315,
     minlevel = 50,
     maxlevel = 50,
     spawns = {
@@ -6641,7 +6297,6 @@ RareScanner335_NPCs = {
       zhCN = "欧加尔",
       zhTW = "歐加爾",
     },
-    displayID = 682,
     minlevel = 51,
     maxlevel = 51,
     spawns = {
@@ -6660,7 +6315,6 @@ RareScanner335_NPCs = {
       zhCN = "米尔洛",
       zhTW = "米爾洛",
     },
-    displayID = 631,
     minlevel = 25,
     maxlevel = 25,
     spawns = {
@@ -6700,7 +6354,6 @@ RareScanner335_NPCs = {
       zhCN = "纳博恩",
       zhTW = "納博恩",
     },
-    displayID = 543,
     minlevel = 24,
     maxlevel = 24,
     spawns = {
@@ -6724,7 +6377,6 @@ RareScanner335_NPCs = {
       zhCN = "哈尔伯·邪泉",
       zhTW = "哈爾伯·邪泉",
     },
-    displayID = 3898,
     minlevel = 27,
     maxlevel = 27,
     spawns = {
@@ -6740,7 +6392,6 @@ RareScanner335_NPCs = {
       zhCN = "吉比斯尼克",
       zhTW = "吉比斯尼克",
     },
-    displayID = 511,
     minlevel = 28,
     maxlevel = 28,
     spawns = {
@@ -6755,7 +6406,6 @@ RareScanner335_NPCs = {
       zhCN = "乌鲁森",
       zhTW = "烏魯森",
     },
-    displayID = 6818,
     minlevel = 7,
     maxlevel = 7,
     spawns = {
@@ -6774,7 +6424,6 @@ RareScanner335_NPCs = {
       zhCN = "格雷莫尔",
       zhTW = "格雷莫爾",
     },
-    displayID = 1011,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -6793,7 +6442,6 @@ RareScanner335_NPCs = {
       zhCN = "暮色巡游者",
       zhTW = "暮色巡者",
     },
-    displayID = 11453,
     minlevel = 9,
     maxlevel = 9,
     spawns = {
@@ -6812,7 +6460,6 @@ RareScanner335_NPCs = {
       zhCN = "愤怒的谢尔达",
       zhTW = "憤怒的謝爾達",
     },
-    displayID = 2296,
     minlevel = 8,
     maxlevel = 8,
     spawns = {
@@ -6827,7 +6474,6 @@ RareScanner335_NPCs = {
       zhCN = "瑟雷基尔",
       zhTW = "瑟雷基爾",
     },
-    displayID = 904,
     minlevel = 6,
     maxlevel = 6,
     spawns = {
@@ -6846,7 +6492,6 @@ RareScanner335_NPCs = {
       zhCN = "斯拉丁",
       zhTW = "斯拉丁",
     },
-    displayID = 8834,
     minlevel = 30,
     maxlevel = 30,
     spawns = {
@@ -6865,7 +6510,6 @@ RareScanner335_NPCs = {
       zhCN = "维尔玛克将军",
       zhTW = "維爾瑪克總隊長",
     },
-    displayID = 7976,
     minlevel = 45,
     maxlevel = 45,
     spawns = {
@@ -6898,7 +6542,6 @@ RareScanner335_NPCs = {
       zhCN = "芬加特",
       zhTW = "芬加特",
     },
-    displayID = 441,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -6920,7 +6563,6 @@ RareScanner335_NPCs = {
       zhCN = "基摩里安",
       zhTW = "基摩里安",
     },
-    displayID = 4920,
     minlevel = 43,
     maxlevel = 43,
     spawns = {
@@ -6939,7 +6581,6 @@ RareScanner335_NPCs = {
       zhCN = "摩塔索恩",
       zhTW = "摩塔索恩",
     },
-    displayID = 14497,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -6972,7 +6613,6 @@ RareScanner335_NPCs = {
       zhCN = "瑟提斯",
       zhTW = "瑟提斯",
     },
-    displayID = 5965,
     minlevel = 61,
     maxlevel = 61,
     spawns = {
@@ -6987,7 +6627,6 @@ RareScanner335_NPCs = {
       zhCN = "格雷瑟尔",
       zhTW = "格雷瑟爾",
     },
-    displayID = 1104,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -7002,7 +6641,6 @@ RareScanner335_NPCs = {
       zhCN = "拉普雷斯",
       zhTW = "拉普雷斯",
     },
-    displayID = 14521,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -7017,7 +6655,6 @@ RareScanner335_NPCs = {
       zhCN = "苏尔拉",
       zhTW = "蘇爾拉",
     },
-    displayID = 14522,
     minlevel = 59,
     maxlevel = 59,
     spawns = {
@@ -7032,7 +6669,6 @@ RareScanner335_NPCs = {
       zhCN = "雷克斯·亚希尔",
       zhTW = "雷克斯·亞希爾",
     },
-    displayID = 12153,
     minlevel = 57,
     maxlevel = 57,
     spawns = {
@@ -7047,7 +6683,6 @@ RareScanner335_NPCs = {
       zhCN = "克里拉克",
       zhTW = "克里拉克",
     },
-    displayID = 6068,
     minlevel = 56,
     maxlevel = 56,
     spawns = {
@@ -7062,7 +6697,6 @@ RareScanner335_NPCs = {
       zhCN = "格鲁布索尔",
       zhTW = "格魯布索爾",
     },
-    displayID = 14523,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -7079,7 +6713,6 @@ RareScanner335_NPCs = {
       zhCN = "哈瑞坎尼安",
       zhTW = "哈瑞坎尼安",
     },
-    displayID = 14525,
     minlevel = 58,
     maxlevel = 58,
     spawns = {
@@ -7098,7 +6731,6 @@ RareScanner335_NPCs = {
       zhCN = "暮光之王艾沃兰",
       zhTW = "暮光領主艾沃蘭",
     },
-    displayID = 14526,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -7117,7 +6749,6 @@ RareScanner335_NPCs = {
       zhCN = "戈鲁格尔",
       zhTW = "戈魯格爾",
     },
-    displayID = 5286,
     minlevel = 37,
     maxlevel = 37,
     spawns = {
@@ -7135,7 +6766,6 @@ RareScanner335_NPCs = {
       zhCN = "罗洛克",
       zhTW = "羅洛克",
     },
-    displayID = 5782,
     minlevel = 38,
     maxlevel = 38,
     spawns = {
@@ -7155,7 +6785,6 @@ RareScanner335_NPCs = {
       zhCN = "瑞帕",
       zhTW = "瑞帕",
     },
-    displayID = 14528,
     minlevel = 44,
     maxlevel = 44,
     spawns = {
@@ -7171,7 +6800,6 @@ RareScanner335_NPCs = {
       zhCN = "库尔莫克",
       zhTW = "庫爾莫克",
     },
-    displayID = 3186,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -7200,7 +6828,6 @@ RareScanner335_NPCs = {
       zhCN = "维里弗尼克斯",
       zhTW = "維里弗尼克斯",
     },
-    displayID = 7232,
     minlevel = 42,
     maxlevel = 42,
     spawns = {
@@ -7221,7 +6848,6 @@ RareScanner335_NPCs = {
       zhCN = "赫尔努拉斯",
       zhTW = "赫爾努拉斯領主",
     },
-    displayID = 14556,
     minlevel = 62,
     maxlevel = 62,
     spawns = {
@@ -7239,7 +6865,6 @@ RareScanner335_NPCs = {
       zhCN = "潜伏者希亚其斯",
       zhTW = "潛伏者亞奇斯",
     },
-    displayID = 15938,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -7257,7 +6882,6 @@ RareScanner335_NPCs = {
       zhCN = "滑翔者沙德基斯",
       zhTW = "滑翔者薛迪依斯",
     },
-    displayID = 16053,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -7275,7 +6899,6 @@ RareScanner335_NPCs = {
       zhCN = "蹂躏者洛卡德",
       zhTW = "劫毀者拉卡",
     },
-    displayID = 16054,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -7293,7 +6916,6 @@ RareScanner335_NPCs = {
       zhCN = "蛛怪监工",
       zhTW = "奈幽監督者",
     },
-    displayID = 14698,
     minlevel = 60,
     maxlevel = 60,
     spawns = {
@@ -7308,7 +6930,6 @@ RareScanner335_NPCs = {
       zhCN = "埃迪纳库斯",
       zhTW = "艾丁納克斯",
     },
-    displayID = 14272,
     minlevel = 11,
     maxlevel = 11,
     spawns = {
@@ -7325,7 +6946,6 @@ RareScanner335_NPCs = {
       zhCN = "特雷格拉",
       zhTW = "崔格拉",
     },
-    displayID = 16406,
     minlevel = 10,
     maxlevel = 10,
     spawns = {
@@ -7344,7 +6964,6 @@ RareScanner335_NPCs = {
       zhCN = "血齿鳄",
       zhTW = "鋒牙",
     },
-    displayID = 20763,
     minlevel = 65,
     maxlevel = 65,
     spawns = {
@@ -7367,7 +6986,6 @@ RareScanner335_NPCs = {
       zhCN = "硬壳蟹",
       zhTW = "硬殼",
     },
-    displayID = 17625,
     minlevel = 31,
     maxlevel = 32,
     spawns = {
@@ -7386,7 +7004,6 @@ RareScanner335_NPCs = {
       zhCN = "野蛮的麦索格",
       zhTW = "狂野的米克索格",
     },
-    displayID = 20761,
     minlevel = 61,
     maxlevel = 61,
     spawns = {
@@ -7408,7 +7025,6 @@ RareScanner335_NPCs = {
       zhCN = "弗尔古格",
       zhTW = "飽食者",
     },
-    displayID = 17445,
     minlevel = 62,
     maxlevel = 62,
     spawns = {
@@ -7429,7 +7045,6 @@ RareScanner335_NPCs = {
       zhCN = "沃拉克姆",
       zhTW = "弗拉肯·厄語者",
     },
-    displayID = 20044,
     minlevel = 62,
     maxlevel = 62,
     spawns = {
@@ -7447,7 +7062,6 @@ RareScanner335_NPCs = {
       zhCN = "玛尔提卡",
       zhTW = "瑪堤卡",
     },
-    displayID = 20770,
     minlevel = 63,
     maxlevel = 63,
     spawns = {
@@ -7468,7 +7082,6 @@ RareScanner335_NPCs = {
       zhCN = "盘牙大使",
       zhTW = "盤牙特使",
     },
-    displayID = 20768,
     minlevel = 63,
     maxlevel = 63,
     spawns = {
@@ -7490,7 +7103,6 @@ RareScanner335_NPCs = {
       zhCN = "泥沼潜伏者",
       zhTW = "泥沼潛伏者",
     },
-    displayID = 20769,
     minlevel = 63,
     maxlevel = 63,
     spawns = {
@@ -7511,7 +7123,6 @@ RareScanner335_NPCs = {
       zhCN = "空灵猎手亚尔",
       zhTW = "虛無獵人亞爾",
     },
-    displayID = 19681,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7530,7 +7141,6 @@ RareScanner335_NPCs = {
       zhCN = "独行者布罗加斯",
       zhTW = "無氏族的伯卡茲",
     },
-    displayID = 18070,
     minlevel = 66,
     maxlevel = 66,
     spawns = {
@@ -7547,7 +7157,6 @@ RareScanner335_NPCs = {
       zhCN = "奥卡雷",
       zhTW = "歐克瑞克",
     },
-    displayID = 20766,
     minlevel = 64,
     maxlevel = 64,
     spawns = {
@@ -7569,7 +7178,6 @@ RareScanner335_NPCs = {
       zhCN = "灾难预言者尤瑞姆",
       zhTW = "末日預言者裘瑞姆",
     },
-    displayID = 20767,
     minlevel = 64,
     maxlevel = 64,
     spawns = {
@@ -7590,7 +7198,6 @@ RareScanner335_NPCs = {
       zhCN = "残骨骷髅",
       zhTW = "殘廢者",
     },
-    displayID = 12073,
     minlevel = 65,
     maxlevel = 65,
     spawns = {
@@ -7613,7 +7220,6 @@ RareScanner335_NPCs = {
       zhCN = "莫克拉什",
       zhTW = "崩碎者",
     },
-    displayID = 20862,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7631,7 +7237,6 @@ RareScanner335_NPCs = {
       zhCN = "赫玛希恩",
       zhTW = "赫瑪西恩",
     },
-    displayID = 8574,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7651,7 +7256,6 @@ RareScanner335_NPCs = {
       zhCN = "演讲者玛尔高姆",
       zhTW = "首長瑪庫隆",
     },
-    displayID = 20762,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7673,7 +7277,6 @@ RareScanner335_NPCs = {
       zhCN = "扭曲观察者科里度斯",
       zhTW = "『扭曲監視者』克里達斯",
     },
-    displayID = 20590,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7694,7 +7297,6 @@ RareScanner335_NPCs = {
       zhCN = "耶瑞卡尔大使",
       zhTW = "傑瑞卡大使",
     },
-    displayID = 11347,
     minlevel = 69,
     maxlevel = 69,
     spawns = {
@@ -7713,7 +7315,6 @@ RareScanner335_NPCs = {
       zhCN = "克兰托尔",
       zhTW = "克拉特",
     },
-    displayID = 20810,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7735,7 +7336,6 @@ RareScanner335_NPCs = {
       zhCN = "主工程师洛杉德尔",
       zhTW = "首席工程師羅桑德",
     },
-    displayID = 20765,
     minlevel = 69,
     maxlevel = 69,
     spawns = {
@@ -7756,7 +7356,6 @@ RareScanner335_NPCs = {
       zhCN = "惩罚者埃沃考尔",
       zhTW = "恆核懲戒者",
     },
-    displayID = 20764,
     minlevel = 68,
     maxlevel = 68,
     spawns = {
@@ -7773,7 +7372,6 @@ RareScanner335_NPCs = {
       zhCN = "努拉莫克",
       zhTW = "努拉莫克",
     },
-    displayID = 19913,
     minlevel = 70,
     maxlevel = 70,
     spawns = {
@@ -7794,7 +7392,6 @@ RareScanner335_NPCs = {
       zhCN = "刺客芬妮萨",
       zhTW = "『刺客』凡妮莎",
     },
-    displayID = 20771,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -7815,7 +7412,6 @@ RareScanner335_NPCs = {
       zhCN = "维斯利姆博士",
       zhTW = "魏德林博士",
     },
-    displayID = 16176,
     minlevel = 18,
     maxlevel = 18,
     spawns = {
@@ -7837,7 +7433,6 @@ RareScanner335_NPCs = {
       zhCN = "水晶树皮",
       zhTW = "老晶樹",
     },
-    displayID = 24960,
     minlevel = 71,
     maxlevel = 72,
     spawns = {
@@ -7859,8 +7454,6 @@ RareScanner335_NPCs = {
       zhCN = "方卜拉布·飞轮",
       zhTW = "方寶·機風",
     },
-    displayIDs = { 24103, 24108, 24114, 24119 },
-    displayID = 24103,
     minlevel = 71,
     maxlevel = 71,
     spawns = {
@@ -7879,8 +7472,6 @@ RareScanner335_NPCs = {
       zhCN = "冰角",
       zhTW = "冰角",
     },
-    displayIDs = { 26286, 27006, 26285 },
-    displayID = 26286,
     minlevel = 71,
     maxlevel = 71,
     spawns = {
@@ -7901,8 +7492,6 @@ RareScanner335_NPCs = {
       zhCN = "嗜血者比洛巴斯",
       zhTW = "『嗜血者』佩洛巴斯",
     },
-    displayIDs = { 28051, 26788 },
-    displayID = 28051,
     minlevel = 71,
     maxlevel = 71,
     spawns = {
@@ -7923,7 +7512,6 @@ RareScanner335_NPCs = {
       zhCN = "女战士维格蒂丝",
       zhTW = "『戰爭侍女』葳格迪斯",
     },
-    displayID = 27063,
     minlevel = 71,
     maxlevel = 71,
     spawns = {
@@ -7946,7 +7534,6 @@ RareScanner335_NPCs = {
       zhCN = "乒乒国王",
       zhTW = "乒乒王",
     },
-    displayID = 27950,
     minlevel = 71,
     maxlevel = 71,
     spawns = {
@@ -7965,7 +7552,6 @@ RareScanner335_NPCs = {
       zhCN = "图克姆斯",
       zhTW = "土克瑪斯",
     },
-    displayID = 27951,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -7991,7 +7577,6 @@ RareScanner335_NPCs = {
       zhCN = "疯狂的因度雷幸存者",
       zhTW = "瘋狂的因度雷生還者",
     },
-    displayID = 28284,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -8010,7 +7595,6 @@ RareScanner335_NPCs = {
       zhCN = "血色领主达尔因",
       zhTW = "血色大領主黛昂",
     },
-    displayID = 10294,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -8028,7 +7612,6 @@ RareScanner335_NPCs = {
       zhCN = "格罗卡拉",
       zhTW = "葛洛克拉",
     },
-    displayID = 26663,
     minlevel = 74,
     maxlevel = 74,
     spawns = {
@@ -8052,7 +7635,6 @@ RareScanner335_NPCs = {
       zhCN = "沸腾之怨",
       zhTW = "沸騰憎恨",
     },
-    displayID = 18083,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -8073,7 +7655,6 @@ RareScanner335_NPCs = {
       zhCN = "雕骨者希蕾娜",
       zhTW = "『雕骨者』塞瑞安",
     },
-    displayID = 27970,
     minlevel = 73,
     maxlevel = 73,
     spawns = {
@@ -8097,7 +7678,6 @@ RareScanner335_NPCs = {
       zhCN = "祖达克斥候",
       zhTW = "祖爾德拉克哨兵",
     },
-    displayID = 26589,
     minlevel = 77,
     maxlevel = 77,
     spawns = {
@@ -8113,7 +7693,6 @@ RareScanner335_NPCs = {
       zhCN = "戈雷根",
       zhTW = "格里根",
     },
-    displayID = 25926,
     minlevel = 75,
     maxlevel = 75,
     spawns = {
@@ -8138,7 +7717,6 @@ RareScanner335_NPCs = {
       zhCN = "恐惧织网者",
       zhTW = "恐懼紡織者",
     },
-    displayID = 27973,
     minlevel = 76,
     maxlevel = 76,
     spawns = {
@@ -8155,7 +7733,6 @@ RareScanner335_NPCs = {
       zhCN = "奥图纳",
       zhTW = "奧托納",
     },
-    displayID = 27975,
     minlevel = 75,
     maxlevel = 75,
     spawns = {
@@ -8179,7 +7756,6 @@ RareScanner335_NPCs = {
       zhCN = "暴龙王克鲁什",
       zhTW = "克洛許王",
     },
-    displayID = 28052,
     minlevel = 75,
     maxlevel = 75,
     spawns = {
@@ -8200,7 +7776,6 @@ RareScanner335_NPCs = {
       zhCN = "古老的普迪图斯",
       zhTW = "古老的普崔達斯",
     },
-    displayID = 27979,
     minlevel = 79,
     maxlevel = 80,
     spawns = {
@@ -8223,7 +7798,6 @@ RareScanner335_NPCs = {
       zhCN = "迷时始祖幼龙",
       zhTW = "時光流逝元龍",
     },
-    displayID = 26711,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8245,7 +7819,6 @@ RareScanner335_NPCs = {
       zhCN = "海达娜·窃魂者",
       zhTW = "希爾達娜·亡據者",
     },
-    displayID = 27983,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8263,7 +7836,6 @@ RareScanner335_NPCs = {
       zhCN = "迪尔奇",
       zhTW = "德碁",
     },
-    displayID = 27986,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8285,7 +7857,6 @@ RareScanner335_NPCs = {
       zhCN = "大领主约夫斯",
       zhTW = "大族長裘弗斯",
     },
-    displayID = 27988,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8306,7 +7877,6 @@ RareScanner335_NPCs = {
       zhCN = "洛卡纳哈",
       zhTW = "羅奎納哈克",
     },
-    displayID = 28010,
     minlevel = 76,
     maxlevel = 76,
     spawns = {
@@ -8328,7 +7898,6 @@ RareScanner335_NPCs = {
       zhCN = "维拉苟萨",
       zhTW = "維拉苟莎",
     },
-    displayID = 28110,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8346,7 +7915,6 @@ RareScanner335_NPCs = {
       zhCN = "古德利亚",
       zhTW = "剛卓亞",
     },
-    displayID = 28871,
     minlevel = 77,
     maxlevel = 77,
     spawns = {
@@ -8366,7 +7934,6 @@ RareScanner335_NPCs = {
       zhCN = "逐日",
       zhTW = "史科爾",
     },
-    displayID = 29673,
     minlevel = 80,
     maxlevel = 80,
     spawns = {
@@ -8381,7 +7948,6 @@ RareScanner335_NPCs = {
       zhCN = "阿克图瑞斯",
       zhTW = "大角",
     },
-    displayID = 31094,
     minlevel = 74,
     maxlevel = 74,
     spawns = {

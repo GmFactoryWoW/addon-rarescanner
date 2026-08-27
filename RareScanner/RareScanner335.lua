@@ -85,29 +85,50 @@ creatureModel:SetWidth(52); creatureModel:SetHeight(52); creatureModel:SetPoint(
 creatureModel:SetFrameLevel(button:GetFrameLevel() + 2)
 creatureModel:Hide()
 
+local portraitCameraPending = false
+
+local function ApplyNpc3DPortraitCamera()
+  if creatureModel.SetCamera then
+    creatureModel:SetCamera(0)
+  end
+  if creatureModel.SetRotation then
+    creatureModel:SetRotation(0)
+  end
+end
+
+local function QueueNpc3DPortraitCamera()
+  portraitCameraPending = true
+end
+
 local function ShowNpcVisual(npcID, unit)
-  -- Historical 3.3.5a behavior: PlayerModel:SetCreature expects the NPC entry ID.
-  if npcID and creatureModel.SetCreature then
-    icon:Hide()
-    creatureModel:Show()
-    creatureModel:ClearModel()
-    creatureModel:SetCreature(npcID)
-    if creatureModel.SetCamera then creatureModel:SetCamera(0) end
+  icon:Hide()
+  creatureModel:Show()
+  creatureModel:ClearModel()
+
+  if unit and UnitExists(unit) and creatureModel.SetUnit then
+    creatureModel:SetUnit(unit)
+
+    -- Apply the portrait camera now and once again on the next frame.
+    -- SetUnit can finish loading asynchronously and reset the model camera.
+    ApplyNpc3DPortraitCamera()
+    QueueNpc3DPortraitCamera()
     return
   end
 
-  -- Fallback to a real unit portrait when SetCreature is unavailable.
-  if unit and UnitExists(unit) then
-    creatureModel:Hide()
-    icon:Show()
-    icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark")
-    SetPortraitTexture(icon, unit)
+  if npcID and creatureModel.SetCreature then
+    creatureModel:SetCreature(npcID)
+    ApplyNpc3DPortraitCamera()
+    QueueNpc3DPortraitCamera()
     return
   end
 
   creatureModel:Hide()
   icon:Show()
-  icon:SetTexture(RareScanner335_Asset("Media\\OriginalSkull.blp"))
+  if type(RareScanner335_Asset) == "function" then
+    icon:SetTexture(RareScanner335_Asset("Media\\OriginalSkull.blp"))
+  else
+    icon:SetTexture("Interface\\AddOns\\RareScanner\\Media\\OriginalSkull.blp")
+  end
 end
 
 local title = button:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge")
@@ -123,16 +144,26 @@ button:SetScript("OnLeave", function() GameTooltip:Hide() end)
 local hideAt
 local pendingTargetName
 local currentAlertNpcID
+local alertPortraitUpdated = false
+local currentAlertPortraitUpdated = false
 button:SetScript("OnUpdate", function(self)
+  if portraitCameraPending then
+    portraitCameraPending = false
+    ApplyNpc3DPortraitCamera()
+  end
   if hideAt and GetTime() >= hideAt and not InCombatLockdown() then self:Hide(); hideAt=nil end
 end)
 
 local function Alert(npcID, detectedName, reason, portraitUnit)
   if not db or db.enabled == false then return end
+  if npcID and npcID > 0 and db.killed and db.killed[npcID] and db.alertKilledRares ~= true then
+    return
+  end
   if not npcID or db.seen[npcID] then return end
   local info = scanIDs[npcID]
   local name = RareScanner335_GetNpcName(info) or detectedName or ("NPC "..npcID)
   currentAlertNpcID = npcID
+  currentAlertPortraitUpdated = portraitUnit and UnitExists(portraitUnit) and true or false
 
   -- Model rendering must never prevent the alert.
   pcall(ShowNpcVisual, npcID, portraitUnit)
@@ -187,10 +218,14 @@ local MarkRareKilled
 local CountKilledRares
 
 local function UpdateAlertPortrait(unit)
+  if alertPortraitUpdated then return end
   if not currentAlertNpcID or not button:IsShown() then return end
   if UnitExists(unit) and not UnitIsPlayer(unit) then
     local id = ParseNpcIDFromGUID(UnitGUID(unit))
-    if id and id == currentAlertNpcID then ShowNpcVisual(id, unit) end
+    if id and id == currentAlertNpcID then
+      ShowNpcVisual(id, unit)
+      alertPortraitUpdated = true
+    end
   end
 end
 
@@ -290,8 +325,13 @@ local function BuildOptionsPanel()
   _G["RareScanner335OptSoundText"]:SetText(RareScanner335_L("ENABLE_SOUND"))
   soundCB.tooltipText = RareScanner335_L("ENABLE_SOUND_TOOLTIP")
 
+  local alertKilledCB = CreateFrame("CheckButton", "RareScanner335OptAlertKilledRares", panel, "InterfaceOptionsCheckButtonTemplate")
+  alertKilledCB:SetPoint("TOPLEFT", soundCB, "BOTTOMLEFT", 0, -6)
+  _G["RareScanner335OptAlertKilledRaresText"]:SetText(RareScanner335_L("ALERT_KILLED_RARES"))
+  alertKilledCB.tooltipText = RareScanner335_L("ALERT_KILLED_RARES_TOOLTIP")
+
   local mapCB = CreateFrame("CheckButton", "RareScanner335OptShowOnMap", panel, "InterfaceOptionsCheckButtonTemplate")
-  mapCB:SetPoint("TOPLEFT", soundCB, "BOTTOMLEFT", 0, -6)
+  mapCB:SetPoint("TOPLEFT", alertKilledCB, "BOTTOMLEFT", 0, -6)
   _G["RareScanner335OptShowOnMapText"]:SetText(RareScanner335_L("SHOW_ON_MAP"))
   mapCB.tooltipText = RareScanner335_L("SHOW_ON_MAP_TOOLTIP")
 
@@ -306,6 +346,7 @@ local function BuildOptionsPanel()
     if not db then return end
     enableCB:SetChecked(db.enabled ~= false)
     soundCB:SetChecked(db.sound ~= false)
+    alertKilledCB:SetChecked(db.alertKilledRares == true)
     mapCB:SetChecked(db.showOnMap ~= false)
     killedMapCB:SetChecked(db.showKilledOnMap == true)
     if resetButton then
@@ -316,12 +357,14 @@ local function BuildOptionsPanel()
     end
     if db.enabled ~= false then
       soundCB:Enable()
+      alertKilledCB:Enable()
       mapCB:Enable()
       killedMapCB:Enable()
       if resetButton then resetButton:Enable() end
       if resetKillsButton then resetKillsButton:Enable() end
     else
       soundCB:Disable()
+      alertKilledCB:Disable()
       mapCB:Disable()
       killedMapCB:Disable()
       if resetButton then resetButton:Disable() end
@@ -348,6 +391,10 @@ local function BuildOptionsPanel()
 
   soundCB:SetScript("OnClick", function(self)
     db.sound = self:GetChecked() and true or false
+  end)
+
+  alertKilledCB:SetScript("OnClick", function(self)
+    db.alertKilledRares = self:GetChecked() and true or false
   end)
 
   mapCB:SetScript("OnClick", function(self)
@@ -393,6 +440,7 @@ local function BuildOptionsPanel()
   panel.default = function()
     db.enabled = true
     db.sound = true
+    db.alertKilledRares = false
     db.showOnMap = true
     db.showKilledOnMap = false
     RefreshPanel()
@@ -427,6 +475,7 @@ frame:SetScript("OnEvent", function(self,event, ...)
     if db.sound == nil then db.sound = true end
     if db.showOnMap == nil then db.showOnMap = true end
     if db.showKilledOnMap == nil then db.showKilledOnMap = false end
+    if db.alertKilledRares == nil then db.alertKilledRares = false end
     db.alertDuration = tonumber(db.alertDuration) or 12
     RebuildScanList()
     if optionsPanel and optionsPanel.refresh then optionsPanel.refresh() end

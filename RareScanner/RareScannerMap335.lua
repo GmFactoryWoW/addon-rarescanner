@@ -19,6 +19,185 @@ local CONTINENT_COORDS = {
   [4] = { 9217.15234375, -8534.24609375,  10593.375,    -1240.89001465 }, -- Northrend
 }
 
+
+local INSTANCE_MAPS = {
+  [686] = {
+    name = "ZulFarrak",
+    mapID = 209,
+    floors = {
+      { 1383.33322143555, 922.916625976562, -1624.99987792969, 2052.08325195312, -241.666656494141, 1129.16662597656 },
+    },
+  },
+  [691] = {
+    name = "Gnomeregan",
+    mapID = 90,
+    floors = {
+      { 769.667999267578, 513.111999511719, 277.772003173828, -694.0, -491.89599609375, -180.888000488281 },
+      { 769.667999267578, 513.111999511719, 77.7720031738281, -714.0, -691.89599609375, -200.888000488281 },
+      { 869.667999267578, 579.778015136719, 127.772003173828, -967.3330078125, -741.89599609375, -387.554992675781 },
+      { 869.669708251953, 579.779998779297, -72.9992980957031, -937.333984375, -942.669006347656, -357.553985595703 },
+    },
+  },
+  [699] = {
+    name = "DireMaul",
+    mapID = 429,
+    floors = {
+      { 1275.0, 850.0, 387.5, 200.0, -887.5, 1050.0 },
+      { 525.0, 350.0, -125.0, -150.0, -650.0, 200.0 },
+      { 487.5, 325.0, -231.25, -150.0, -718.75, 175.0 },
+      { 750.0, 500.0, -325.0, -250.0, -1075.0, 250.0 },
+      { 800.000801086426, 533.333999633789, 900.0, -281.6669921875, 99.9991989135742, 251.667007446289 },
+      { 975.0, 650.0, 862.5, -200.0, -112.5, 450.0 },
+    },
+  },
+  [704] = {
+    name = "BlackrockDepths",
+    mapID = 230,
+    floors = {
+      { 1407.06097412109, 938.040756225586, 884.723999023438, 248.639663696289, -522.336975097656, 1186.68041992188 },
+      { 1507.06097412109, 1004.70742797852, 934.723999023438, 495.302825927734, -572.336975097656, 1500.01025390625 },
+    },
+  },
+  [721] = {
+    name = "BlackrockSpire",
+    mapID = 229,
+    floors = {
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+      { 886.839014053345, 591.226013183594, 876.252014160156, -286.828002929688, -10.5869998931885, 304.398010253906 },
+    },
+  },
+  [749] = {
+    name = "WailingCaverns",
+    mapID = 43,
+    floors = {
+      { 936.475006103516, 624.315994262695, 375.946014404297, -410.14599609375, -560.528991699219, 214.169998168945 },
+    },
+  },
+  [750] = {
+    name = "Maraudon",
+    mapID = 349,
+    floors = {
+      { 975.0, 650.0, 827.5, 550.0, -147.5, 1200.0 },
+      { 1637.5, 1091.66600036621, 1158.75, -208.332992553711, -478.75, 883.3330078125 },
+    },
+  },
+  [756] = {
+    name = "TheDeadmines",
+    mapID = 36,
+    floors = {
+      { 559.264007568359, 372.842502593994, 796.622009277344, -337.509002685547, 237.358001708984, 35.3334999084473 },
+      { 499.263000488281, 332.842300415039, 1016.61999511719, -267.509002685547, 517.356994628906, 65.3332977294922 },
+    },
+  },
+  [761] = {
+    name = "RazorfenKraul",
+    mapID = 47,
+    floors = {
+      { 736.449951171875, 490.959838867188, -1322.46997070312, 1858.68005371094, -2058.919921875, 2349.63989257812 },
+    },
+  },
+  [762] = {
+    name = "ScarletMonastery",
+    mapID = 189,
+    floors = {
+      { 619.983947753906, 413.32275390625, -947.986022949219, 1616.85864257812, -1567.96997070312, 2030.18139648438 },
+      { 320.190994262695, 213.460494995117, 482.463989257812, 93.9055023193359, 162.272994995117, 307.365997314453 },
+      { 612.69660949707, 408.4599609375, 562.424011230469, 1600.64001464844, -50.2725982666016, 2009.09997558594 },
+      { 703.300048828125, 468.86669921875, -1040.68994140625, 812.423706054688, -1743.98999023438, 1281.29040527344 },
+    },
+  },
+  [764] = {
+    name = "ShadowfangKeep",
+    mapID = 33,
+    floors = {
+      { 352.429931640625, 234.953392028809, -2003.77001953125, -319.882995605469, -2356.19995117188, -84.9296035766602 },
+      { 212.419921875, 141.61799621582, -2147.56005859375, -303.214996337891, -2359.97998046875, -161.59700012207 },
+      { 152.429931640625, 101.619903564453, -2103.77001953125, -193.216003417969, -2256.19995117188, -91.5960998535156 },
+      { 152.429931640625, 101.624694824219, -2103.77001953125, -193.214996337891, -2256.19995117188, -91.5903015136719 },
+      { 152.429931640625, 101.624694824219, -2103.77001953125, -193.214996337891, -2256.19995117188, -91.5903015136719 },
+      { 198.429931640625, 132.286605834961, -2080.77001953125, -182.546005249023, -2279.19995117188, -50.2593994140625 },
+      { 272.429931640625, 181.619903564453, -2023.77001953125, -278.216003417969, -2296.19995117188, -96.5960998535156 },
+    },
+  },
+  [765] = {
+    name = "Stratholme",
+    mapID = 329,
+    floors = {
+      { 705.719970703125, 470.47998046875, 3617.67993164062, 3338.96997070312, 2911.9599609375, 3809.44995117188 },
+      { 1005.72045898438, 670.480224609375, 3967.68017578125, 3498.96997070312, 2961.95971679688, 4169.4501953125 },
+    },
+  },
+}
+
+local function NormalizeInstanceMapName(mapName)
+  if not mapName then return nil end
+  return string.match(mapName, "^(.-)%d*_$") or mapName
+end
+
+local function GetDisplayedInstanceMap()
+  local areaID
+  if type(GetCurrentMapAreaID) == "function" then
+    areaID = GetCurrentMapAreaID()
+  end
+
+  local instance = areaID and INSTANCE_MAPS[areaID]
+
+  if not instance and type(GetMapInfo) == "function" then
+    local mapName = NormalizeInstanceMapName(GetMapInfo())
+    if mapName then
+      for _, candidate in pairs(INSTANCE_MAPS) do
+        if candidate.name == mapName then
+          instance = candidate
+          break
+        end
+      end
+    end
+  end
+
+  if not instance then return nil end
+
+  local floor = 1
+  if type(GetCurrentMapDungeonLevel) == "function" then
+    local currentFloor = GetCurrentMapDungeonLevel()
+    if currentFloor and currentFloor > 0 then
+      floor = currentFloor
+    end
+  end
+
+  if floor > #instance.floors then
+    floor = #instance.floors
+  end
+
+  return instance, instance.floors[floor], floor
+end
+
+local function InstanceWorldToMap(floorData, spawnX, spawnY)
+  if not floorData then return nil end
+
+  local width = floorData[1]
+  local height = floorData[2]
+  local lowerRightX = floorData[5]
+  local lowerRightY = floorData[6]
+  if not width or not height or width == 0 or height == 0 then return nil end
+
+  local left = -lowerRightX
+  local top = lowerRightY
+  local mapX = (left - spawnY) / width
+  local mapY = (top - spawnX) / height
+
+  if mapX < 0 or mapX > 1 or mapY < 0 or mapY > 1 then
+    return nil
+  end
+
+  return mapX, mapY
+end
+
+
 local Astrolabe = DongleStub and DongleStub("Astrolabe-0.4")
 local pins = {}
 local activePins = 0
@@ -105,8 +284,9 @@ local function RareScanner335_GetLevelColorCode(minlevel, maxlevel)
 end
 
 local function RareScanner335_IsRegionMap()
-  -- On WoW 3.3.5a: GetCurrentMapContinent() > 0 and GetCurrentMapZone() > 0
-  -- means a specific region/zone map is being viewed.
+  local instance = GetDisplayedInstanceMap()
+  if instance then return true end
+
   local continent = GetCurrentMapContinent and GetCurrentMapContinent() or 0
   local zone = GetCurrentMapZone and GetCurrentMapZone() or 0
   return continent and continent > 0 and zone and zone > 0
@@ -418,13 +598,62 @@ local function AddPin(x, y, npcID, name, size, texturePath)
   pin:Show()
 end
 
+local function BuildPinName(npcID, info)
+  local pinName = (RareScanner335_GetNpcName and RareScanner335_GetNpcName(info)) or ("NPC "..npcID)
+  if info.minlevel and info.maxlevel then
+    local levelColor = RareScanner335_GetLevelColorCode(info.minlevel, info.maxlevel)
+    if info.minlevel == info.maxlevel then
+      pinName = pinName.." "..levelColor.."("..info.minlevel..")|r"
+    else
+      pinName = pinName.." "..levelColor.."("..info.minlevel.."-"..info.maxlevel..")|r"
+    end
+  end
+  return pinName
+end
+
+local function AddInstancePins(instance, bounds)
+  if not instance or not bounds then return end
+
+  local size = 20
+  for npcID, info in pairs(RareScanner335_NPCs) do
+    if not (RareScannerDB and RareScannerDB.disabled and RareScannerDB.disabled[npcID]) then
+      local isKilled = RareScannerDB and RareScannerDB.killed and RareScannerDB.killed[npcID]
+      if not isKilled or (RareScannerDB and RareScannerDB.showKilledOnMap == true) then
+        for _, spawn in ipairs(info.spawns or {}) do
+          if spawn.map == instance.mapID then
+            local x, y = InstanceWorldToMap(bounds, spawn.x, spawn.y)
+            if x and y then
+              AddPin(
+                x,
+                y,
+                npcID,
+                BuildPinName(npcID, info),
+                size,
+                isKilled and KILLED_ICON_TEXTURE or ICON_TEXTURE
+              )
+            end
+          end
+        end
+      end
+    end
+  end
+end
+
 function RareScanner335_UpdateMapPins()
   HidePins()
 
   if not WorldMapButton or not WorldMapButton:IsShown() then return end
-  if not Astrolabe or not RareScanner335_NPCs then return end
+  if not RareScanner335_NPCs then return end
   if RareScannerDB and RareScannerDB.enabled == false then return end
   if RareScannerDB and RareScannerDB.showOnMap == false then return end
+
+  local instance, instanceBounds = GetDisplayedInstanceMap()
+  if instance then
+    AddInstancePins(instance, instanceBounds)
+    return
+  end
+
+  if not Astrolabe then return end
 
   local currentContinent = GetCurrentMapContinent()
   local currentZone = GetCurrentMapZone()
@@ -444,60 +673,53 @@ function RareScanner335_UpdateMapPins()
     if not (RareScannerDB and RareScannerDB.disabled and RareScannerDB.disabled[npcID]) then
       local isKilled = RareScannerDB and RareScannerDB.killed and RareScannerDB.killed[npcID]
       if not isKilled or (RareScannerDB and RareScannerDB.showKilledOnMap == true) then
-      local spawns = info.spawns
-      if spawns then
-        for _, spawn in ipairs(spawns) do
-          local sourceContinent = MAP_TO_CONTINENT[spawn.map]
+        local spawns = info.spawns
+        if spawns then
+          for _, spawn in ipairs(spawns) do
+            local sourceContinent = MAP_TO_CONTINENT[spawn.map]
+            if sourceContinent then
+              local canProject = false
 
-          -- Instance maps and other unsupported map IDs are intentionally skipped.
-          if sourceContinent then
-            local canProject = false
+              if currentContinent == 0 then
+                canProject = sourceContinent ~= 3
+              else
+                canProject = sourceContinent == currentContinent
+              end
 
-            if currentContinent == 0 then
-              -- Azeroth world map can display Kalimdor, Eastern Kingdoms and Northrend.
-              canProject = sourceContinent ~= 3
-            else
-              canProject = sourceContinent == currentContinent
-            end
-
-            if canProject then
-              local x, y = WorldToContinent(sourceContinent, spawn.x, spawn.y)
-              if x and y then
-                if currentContinent == 0 then
-                  x, y = Astrolabe:TranslateWorldMapPosition(
-                    sourceContinent, 0, x, y,
-                    0, 0
-                  )
-                else
-                  x, y = Astrolabe:TranslateWorldMapPosition(
-                    sourceContinent, 0, x, y,
-                    currentContinent, currentZone
-                  )
-                end
-
-                if x and y and x > 0 and x < 1 and y > 0 and y < 1 then
-                  local pinName = (RareScanner335_GetNpcName and RareScanner335_GetNpcName(info)) or ("NPC "..npcID)
-                  if info.minlevel and info.maxlevel then
-                    local levelColor = RareScanner335_GetLevelColorCode(info.minlevel, info.maxlevel)
-                    if info.minlevel == info.maxlevel then
-                      pinName = pinName.." "..levelColor.."("..info.minlevel..")|r"
-                    else
-                      pinName = pinName.." "..levelColor.."("..info.minlevel.."-"..info.maxlevel..")|r"
-                    end
+              if canProject then
+                local x, y = WorldToContinent(sourceContinent, spawn.x, spawn.y)
+                if x and y then
+                  if currentContinent == 0 then
+                    x, y = Astrolabe:TranslateWorldMapPosition(
+                      sourceContinent, 0, x, y,
+                      0, 0
+                    )
+                  else
+                    x, y = Astrolabe:TranslateWorldMapPosition(
+                      sourceContinent, 0, x, y,
+                      currentContinent, currentZone
+                    )
                   end
-                  AddPin(x, y, npcID, pinName, size, isKilled and KILLED_ICON_TEXTURE or ICON_TEXTURE)
 
-                  -- On the world map and continent maps, only show one spawn
-                  -- per NPC ID. Region maps keep every known spawn point.
-                  if currentContinent == 0 or currentZone == 0 then
-                    break
+                  if x and y and x > 0 and x < 1 and y > 0 and y < 1 then
+                    AddPin(
+                      x,
+                      y,
+                      npcID,
+                      BuildPinName(npcID, info),
+                      size,
+                      isKilled and KILLED_ICON_TEXTURE or ICON_TEXTURE
+                    )
+
+                    if currentContinent == 0 or currentZone == 0 then
+                      break
+                    end
                   end
                 end
               end
             end
           end
         end
-      end
       end
     end
   end
