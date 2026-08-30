@@ -474,6 +474,58 @@ local function CreateMapOptionsButton()
   end
 end
 
+
+-- Map 530 also contains several Burning Crusade zones that are displayed on
+-- Kalimdor or Eastern Kingdoms rather than on the Outland continent map.
+-- Values are { width, height, left, top, right, bottom } in world coordinates.
+local MAP530_SPECIAL_ZONES = {
+  -- City maps must be tested before their surrounding outdoor zones because
+  -- their world-coordinate rectangles overlap those parent zones.
+  { mapFile = "SilvermoonCity", parentContinent = 2, bounds = { 1211.459296502504, 806.7736903384404, 6400.75091570836, 10153.7121932813, 7612.21021221086, 9346.93850294286 } },
+  { mapFile = "TheExodar", parentContinent = 1, bounds = { 1056.782908333002, 704.6827795715492, 11066.3726778873, -3609.67094368333, 12123.1555862203, -4314.35372325488 } },
+  { mapFile = "EversongWoods", parentContinent = 2, bounds = { 4925.0, 3283.3330078125, 4487.5, 11041.666015625, 9412.5, 7758.3330078125 } },
+  { mapFile = "Ghostlands", parentContinent = 2, bounds = { 3300.0, 2199.99951171875, 5283.3330078125, 8266.666015625, 8583.3330078125, 6066.66650390625 } },
+  { mapFile = "AzuremystIsle", parentContinent = 1, bounds = { 4070.8330078125, 2714.5830078125, 10500.0, -2793.75, 14570.8330078125, -5508.3330078125 } },
+  { mapFile = "BloodmystIsle", parentContinent = 1, bounds = { 3262.4990234375, 2174.9999389648438, 10075.0, -758.3333129882812, 13337.4990234375, -2933.333251953125 } },
+  { mapFile = "Sunwell", parentContinent = 2, bounds = { 3327.0830078125, 2218.7490234375, 5302.0830078125, 13568.7490234375, 8629.166015625, 11350.0 } },
+}
+
+local function FindAstrolabeZoneIndex(continent, mapFile)
+  if not Astrolabe or not Astrolabe.ContinentList then return nil end
+  local zones = Astrolabe.ContinentList[continent]
+  if not zones then return nil end
+  for index, name in ipairs(zones) do
+    if name == mapFile then return index end
+  end
+end
+
+local function Map530WorldToSpecialZone(spawnX, spawnY)
+  for _, zone in ipairs(MAP530_SPECIAL_ZONES) do
+    local b = zone.bounds
+    local mapX = ((-spawnY) - b[3]) / b[1]
+    local mapY = (b[4] - spawnX) / b[2]
+    if mapX >= 0 and mapX <= 1 and mapY >= 0 and mapY <= 1 then
+      local zoneIndex = FindAstrolabeZoneIndex(zone.parentContinent, zone.mapFile)
+      if zoneIndex then
+        return zone.parentContinent, zoneIndex, mapX, mapY
+      end
+    end
+  end
+end
+
+local function ResolveSpawnMapPosition(spawn)
+  if spawn.map == 530 then
+    local continent, zone, x, y = Map530WorldToSpecialZone(spawn.x, spawn.y)
+    if continent then return continent, zone, x, y end
+  end
+
+  local continent = MAP_TO_CONTINENT[spawn.map]
+  if not continent then return nil end
+  local x, y = WorldToContinent(continent, spawn.x, spawn.y)
+  if not x or not y then return nil end
+  return continent, 0, x, y
+end
+
 local function HidePins()
   for i = 1, #pins do
     pins[i]:Hide()
@@ -676,8 +728,8 @@ function RareScanner335_UpdateMapPins()
         local spawns = info.spawns
         if spawns then
           for _, spawn in ipairs(spawns) do
-            local sourceContinent = MAP_TO_CONTINENT[spawn.map]
-            if sourceContinent then
+            local sourceContinent, sourceZone, x, y = ResolveSpawnMapPosition(spawn)
+            if sourceContinent and x and y then
               local canProject = false
 
               if currentContinent == 0 then
@@ -687,33 +739,30 @@ function RareScanner335_UpdateMapPins()
               end
 
               if canProject then
-                local x, y = WorldToContinent(sourceContinent, spawn.x, spawn.y)
-                if x and y then
-                  if currentContinent == 0 then
-                    x, y = Astrolabe:TranslateWorldMapPosition(
-                      sourceContinent, 0, x, y,
-                      0, 0
-                    )
-                  else
-                    x, y = Astrolabe:TranslateWorldMapPosition(
-                      sourceContinent, 0, x, y,
-                      currentContinent, currentZone
-                    )
-                  end
+                if currentContinent == 0 then
+                  x, y = Astrolabe:TranslateWorldMapPosition(
+                    sourceContinent, sourceZone, x, y,
+                    0, 0
+                  )
+                else
+                  x, y = Astrolabe:TranslateWorldMapPosition(
+                    sourceContinent, sourceZone, x, y,
+                    currentContinent, currentZone
+                  )
+                end
 
-                  if x and y and x > 0 and x < 1 and y > 0 and y < 1 then
-                    AddPin(
-                      x,
-                      y,
-                      npcID,
-                      BuildPinName(npcID, info),
-                      size,
-                      isKilled and KILLED_ICON_TEXTURE or ICON_TEXTURE
-                    )
+                if x and y and x > 0 and x < 1 and y > 0 and y < 1 then
+                  AddPin(
+                    x,
+                    y,
+                    npcID,
+                    BuildPinName(npcID, info),
+                    size,
+                    isKilled and KILLED_ICON_TEXTURE or ICON_TEXTURE
+                  )
 
-                    if currentContinent == 0 or currentZone == 0 then
-                      break
-                    end
+                  if currentContinent == 0 or currentZone == 0 then
+                    break
                   end
                 end
               end
